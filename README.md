@@ -14,3 +14,5 @@ Document for my design portfolio website
 ## License & copyright
 
 © Treawna Harvey, 2020
+
+Licensed under the [MIT Licence](LICENSE).
