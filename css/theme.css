@@ -1,10 +1,11 @@
 :root {
-  --color-cement: #d3d3d3;
-  --color-cement-light: #eaeaea;
   --color-charcoal: #2c2c2c;
   --color-charcoal-light: #6f6f6f;
-  --color-rust: #8b3f23;
+  --color-cement: #d3d3d3;
+  --color-cement-light: #eaeaea;
   --color-teal: #105f50;
+  --color-rust: #8b3f23;
+  --color-white: #fff;
 
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Gayathri", sans-serif;
