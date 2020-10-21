@@ -3978,13 +3978,14 @@ p {
 }
 
 .btn a {
-  font-size: 20px;
+  font-family: var(--font-secondary);
+  font-weight: 700;
 }
 
 .btn {
   z-index:1000;
   border: solid 2px;
-  font-weight: 400;
+  font-weight: 700;
   width: 100%;
   height: 100%;
   background-color: Transparent;
@@ -4051,12 +4052,12 @@ p {
 }
 
 .btn-glow-shadow {
-  background-color: rgba(234,234,234,.2);
+  background-color: rgba(234,234,234,.3);
   box-shadow: 0 0 12px 12px var(--color-charcoal) inset;
 }
 
 .link-box:hover .btn-glow {
-  background-color: rgba(234,234,234,.15);
+  background-color: rgba(234,234,234,.2);
   border: solid 2px var(--color-cement-light);
   color: var(--color-cement-light);
 }
