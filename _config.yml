@@ -8,5 +8,9 @@ patternbot:
   font_url: "https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Poppins:wght@200;300;400;500;600;700&display=swap"
   colors:
     sidebar: "--color-charcoal"
-    accent: "--color-teal"
+    accent: "--color-sea"
     background: "--color-cement"
+    patterns:
+      brand.logos: "--color-cement-light"
+      buttons.basic: "--color-cement"
+      buttons.glow: "--color-charcoal"

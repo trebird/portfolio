@@ -167,6 +167,18 @@
           
           
           
+            
+            <li role="presentation">
+              <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="buttons" href="#buttons">
+                <div class="relative">
+                  <span>Buttons</span>
+                  <i class="icon i-18 absolute pin-cr">
+                    <svg><use xlink:href="#icon-active"></use></svg>
+                  </i>
+                </div>
+              </a>
+            </li>
+          
         </ul>
       </nav>
       
@@ -225,7 +237,23 @@
     
     
     
-    <div class="pattern-details " id="brand--logos">
+      <style>
+        #brand--logos,
+        #brand--logos * {
+          --color-patternbot-interface: 0;
+          --color-patternbot-interface-opposite: 255;
+          --color-patternbot-interface-background: #eaeaea;
+          --color-patternbot-interface-accent: #000000;
+        }
+
+        #brand--logos.patternbot-override-color,
+        #brand--logos .patternbot-override-color {
+          color: #000000;
+          background-color: var(--color-patternbot-interface-background);
+        }
+      </style>
+    
+    <div class="pattern-details patternbot-override-color" id="brand--logos">
       
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
           <h3 class="pattern-name tera push-1-8">Logos</h3>
@@ -1758,6 +1786,235 @@
 </section>
 
       
+      
+        
+        
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+<section class="pattern " id="buttons" role="tabpanel" hidden aria-hidden="true">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
+    <h2 class="pattern-name exa push-1-4">Buttons</h2>
+    
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4 pad-b-1-4">
+          
+            <li><a href="#buttons--basic">Basic</a></li>
+          
+            <li><a href="#buttons--glow">Glow</a></li>
+          
+        </ol>
+      </nav>
+    
+    
+  </div>
+
+  
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+    
+    
+      <style>
+        #buttons--basic,
+        #buttons--basic * {
+          --color-patternbot-interface: 0;
+          --color-patternbot-interface-opposite: 255;
+          --color-patternbot-interface-background: #d3d3d3;
+          --color-patternbot-interface-accent: #000000;
+        }
+
+        #buttons--basic.patternbot-override-color,
+        #buttons--basic .patternbot-override-color {
+          color: #000000;
+          background-color: var(--color-patternbot-interface-background);
+        }
+      </style>
+    
+    <div class="pattern-details patternbot-override-color" id="buttons--basic">
+      
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Basic</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+              
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons-basic-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+              
+              
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/buttons/basic/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+              
+            </ul>
+        </div>
+        
+      
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="/pattern-library/patterns/buttons/basic/index.html" scrolling="no" ></iframe>
+            
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+        
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="buttons-basic-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#buttons-basic-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              
+                <code><pre id="buttons-basic-code-sample-copy-chunk">{% pattern buttons/basic %}</pre></code>
+              
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+      <style>
+        #buttons--glow,
+        #buttons--glow * {
+          --color-patternbot-interface: 255;
+          --color-patternbot-interface-opposite: 0;
+          --color-patternbot-interface-background: #2c2c2c;
+          --color-patternbot-interface-accent: #ffffff;
+        }
+
+        #buttons--glow.patternbot-override-color,
+        #buttons--glow .patternbot-override-color {
+          color: #ffffff;
+          background-color: var(--color-patternbot-interface-background);
+        }
+      </style>
+    
+    <div class="pattern-details patternbot-override-color" id="buttons--glow">
+      
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Glow</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+              
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons-glow-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+              
+              
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/buttons/glow/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+              
+            </ul>
+        </div>
+        
+      
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="/pattern-library/patterns/buttons/glow/index.html" scrolling="no" ></iframe>
+            
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+        
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="buttons-glow-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#buttons-glow-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              
+                <code><pre id="buttons-glow-code-sample-copy-chunk">{% pattern buttons/glow %}</pre></code>
+              
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+
+</section>
+
       
     </main>
 

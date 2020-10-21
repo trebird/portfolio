@@ -3,8 +3,7 @@
   --color-charcoal-light: #6f6f6f;
   --color-cement: #d3d3d3;
   --color-cement-light: #eaeaea;
-  --color-teal: #105f50;
-  --color-rust: #8b3f23;
+  --color-sea: #105f50;
   --color-white: #fff;
 
   --font-primary: "Poppins", sans-serif;
@@ -50,9 +49,13 @@ mark {
 }
 
 a {
-  color: var(--color-teal);
+  color: var(--color-sea);
 }
 
 p {
   font-weight: 200;
+}
+
+.btn a {
+  font-size: 20px;
 }

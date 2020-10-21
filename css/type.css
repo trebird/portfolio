@@ -13,6 +13,10 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
+.btn-container {
+  font-size: 20px;
+}
+
 sub,
 sup {
   font-size: .75em;
