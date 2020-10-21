@@ -4005,11 +4005,11 @@ p {
 }
 
 .link-box:hover .btn {
-  transform: translate(-2px, -4px);
+  transform: translate(-2px, -5px);
 }
 
 .link-box:hover .btn-shadow {
-  transform: translate(1px, 5px);
+  transform: translateY(1px, 5px);
   height: 160%;
   width: 112%
 }
@@ -4031,13 +4031,13 @@ p {
 }
 
 .link-box:hover .btn-basic {
-  background-color: rgba(16,95,80,.3);
+  background-color: rgba(16,95,80,.2);
   border: solid 2px var(--color-sea);
   color: var(--color-sea);
 }
 
 .link-box:hover .btn-basic-shadow {
-  background-color: rgba(16,95,80,.15);
+  background-color: rgba(16,95,80,.2);
 }
 
 .btn-glow {
@@ -4051,17 +4051,17 @@ p {
 }
 
 .btn-glow-shadow {
-  background-color: rgba(234,234,234,.3);
+  background-color: rgba(234,234,234,.2);
   box-shadow: 0 0 12px 12px var(--color-charcoal) inset;
 }
 
 .link-box:hover .btn-glow {
-  background-color: rgba(234,234,234,.3);
+  background-color: rgba(234,234,234,.15);
   border: solid 2px var(--color-cement-light);
   color: var(--color-cement-light);
 }
 
 .link-box:hover .btn-glow-shadow {
-  background-color: rgba(234,234,234,.175);
+  background-color: rgba(234,234,234,.1);
 }
 
