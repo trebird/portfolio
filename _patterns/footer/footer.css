@@ -24,6 +24,6 @@ footer {
   color: var(--color-cement-light);
 }
 
-.terms:hover {
-  font-weight: 600;
+footer nav a:hover {
+  color: var(--color-sea);
 }

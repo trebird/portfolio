@@ -5,7 +5,7 @@ patternbot:
   title: "Portfolio"
   description: |
     Online portfolio for my graphic design work.
-  font_url: "https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Poppins:wght@200;300;400;500;600;700&display=swap"
+  font_url: "https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Inter:wght@100;200;300;400;500;600;700&display=swap"
   colors:
     sidebar: "--color-charcoal"
     accent: "--color-sea"

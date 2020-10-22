@@ -26,7 +26,7 @@
       
 
       
-        --font-patternbot-primary: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        --font-patternbot-primary: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
       
 
       
@@ -36,12 +36,12 @@
 
     
       html, body {
-        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
       }
     
   </style>
   
-    <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
   
 </head>
 <body>
@@ -163,6 +163,17 @@
           
           
           
+          
+            <li role="presentation">
+              <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="layouts" href="#layouts">
+                <div class="relative">
+                  <span>Layouts</span>
+                  <i class="icon i-18 absolute pin-cr">
+                    <svg><use xlink:href="#icon-active"></use></svg>
+                  </i>
+                </div>
+              </a>
+            </li>
           
           
           
@@ -1940,6 +1951,9 @@
 
 
 
+  
+  
+  
 
 
 
@@ -1956,7 +1970,7 @@
       <ul class="list-group-inline gutter absolute pin-cr">
         
           <li>
-            <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="sections-false-code-sample">
+            <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="sections-home-banner-code-sample">
               <i class="icon i-18">
                 <svg><use xlink:href="#icon-code"></use></svg>
               </i>
@@ -1965,7 +1979,7 @@
         
         
           <li>
-            <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/sections/false" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+            <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/sections/home-banner/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
               <i class="icon i-18">
                 <svg><use xlink:href="#icon-pop-out"></use></svg>
               </i>
@@ -1982,6 +1996,57 @@
     
   
 
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="pattern-details " id="sections--home-banner">
+      
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="/pattern-library/patterns/sections/home-banner/index.html" scrolling="no" ></iframe>
+            
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+        
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="sections-home-banner-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#sections-home-banner-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              
+                <code><pre id="sections-home-banner-code-sample-copy-chunk">{% pattern sections/home-banner %}</pre></code>
+              
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
   
 
 </section>

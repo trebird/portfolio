@@ -3927,7 +3927,7 @@ legend {
   --color-sea: #105f50;
   --color-white: #fff;
 
-  --font-primary: "Poppins", sans-serif;
+  --font-primary: "Inter", sans-serif;
   --font-secondary: "Gayathri", sans-serif;
 }
 
@@ -3974,7 +3974,7 @@ a {
 }
 
 p {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .btn a {
@@ -4008,8 +4008,8 @@ footer {
   color: var(--color-cement-light);
 }
 
-.terms:hover {
-  font-weight: 600;
+footer nav a:hover {
+  color: var(--color-sea);
 }
 
 .md {
