@@ -1,0 +1,18 @@
+header a {
+  font-family: var(--font-secondary);
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  padding-right: .75em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  header .th {
+    text-align: left;
+  }
+
+  nav ul {
+    text-align: right;
+  }
+}

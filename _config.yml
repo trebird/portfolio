@@ -14,3 +14,4 @@ patternbot:
       brand.logos: "--color-cement-light"
       buttons.basic: "--color-cement"
       buttons.glow: "--color-charcoal"
+      header: "--color-charcoal"

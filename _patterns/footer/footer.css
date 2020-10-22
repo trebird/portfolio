@@ -1,0 +1,28 @@
+footer {
+  background-color: var(--color-charcoal);
+  width: 100%;
+  color: var(--color-cement)
+}
+
+.talk p {
+  font-family: var(--font-secondary);
+  font-size: 4.7684rem;
+  line-height: 4.7684rem;
+  border-top: solid 2px var(--color-cement);
+  padding-top: .55em;
+}
+
+.terms, nav a {
+  color: var(--color-cement-light);
+  font-weight: normal;
+}
+
+.terms:hover {
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 38em) {
+
+  nav ul {
+
+  }
