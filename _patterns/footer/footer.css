@@ -6,23 +6,24 @@ footer {
 
 .talk p {
   font-family: var(--font-secondary);
-  font-size: 4.7684rem;
-  line-height: 4.7684rem;
+  font-size: 5rem;
+  line-height: 5rem;
   border-top: solid 2px var(--color-cement);
-  padding-top: .55em;
+  padding-top: .5em;
+  left: -10em;
+}
+
+.talk a {
+  font-family: var(--font-secondary);
+  color: var(--color-charcoal-light);
+  font-weight: 100;
+  border: none;
 }
 
 .terms, nav a {
   color: var(--color-cement-light);
-  font-weight: normal;
 }
 
 .terms:hover {
   font-weight: 600;
 }
-
-@media only screen and (min-width: 38em) {
-
-  nav ul {
-
-  }

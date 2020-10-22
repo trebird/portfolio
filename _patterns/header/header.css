@@ -1,9 +1,27 @@
+header {
+  background-color: var(--color-charcoal);
+}
+
 header a {
   font-family: var(--font-secondary);
   text-decoration: none;
   color: #fff;
+
+  transition: all .25s ease-in-out;
+}
+
+.th a {
   font-weight: 400;
   padding-right: .75em;
+}
+
+nav a {
+  padding-top: 7px;
+  font-weight: 100;
+}
+
+header a:active {
+  border-top: solid 3px var(--color-sea);
 }
 
 @media only screen and (min-width: 38em) {
@@ -15,4 +33,10 @@ header a {
   nav ul {
     text-align: right;
   }
+}
+
+header nav a:hover {
+  color: var(--color-cement);
+  border-top: solid 3px var(--color-sea);
+  text-shadow: 0px 20px 15px var(--color-sea);
 }
