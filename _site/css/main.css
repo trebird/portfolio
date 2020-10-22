@@ -4012,6 +4012,10 @@ footer {
   font-weight: 600;
 }
 
+.md {
+  color: var(--color-sea);
+}
+
 .btn {
   z-index:1000;
   border: solid 2px;
