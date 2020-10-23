@@ -4,11 +4,14 @@ footer {
   color: var(--color-cement)
 }
 
+.talk {
+  border-top: solid 2px var(--color-cement);
+}
+
 .talk p {
   font-family: var(--font-secondary);
   font-size: 5rem;
   line-height: 5rem;
-  border-top: solid 2px var(--color-cement);
   padding-top: .5em;
   left: -10em;
 }

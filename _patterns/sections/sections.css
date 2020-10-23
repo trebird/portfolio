@@ -1,3 +1,8 @@
-.md {
-  color: var(--color-sea);
+.hello {
+  background-color: var(--color-charcoal);
+  color: var(--color-cement);
+}
+
+.hello p {
+
 }

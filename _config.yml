@@ -5,7 +5,9 @@ patternbot:
 
   layouts:
     default: |
-      The default layour should be used for the homepage and contains the websites primary header.
+      The default layout should be used for the homepage and contains the websites primary header.
+    case-studies: |
+      The case-studies layout should be used for case study pages and contains the secondary light header.
 
   title: "Portfolio"
   description: |

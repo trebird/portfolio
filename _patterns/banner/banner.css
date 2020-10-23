@@ -1,0 +1,14 @@
+.banner {
+  background-color: var(--color-charcoal);
+  width: 100%;
+  color: var(--color-cement)
+}
+
+.banner span {
+  color: var(--color-charcoal-light);
+}
+
+.banner-content h1 {
+  font-weight: 400;
+  left: -10em;
+}

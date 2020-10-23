@@ -10,7 +10,8 @@ header a {
   transition: all .25s ease-in-out;
 }
 
-.th a {
+.th a,
+.thl a {
   font-weight: 400;
   padding-right: .75em;
 }
@@ -20,13 +21,23 @@ nav a {
   font-weight: 100;
 }
 
-header a:active {
+header nav a:active {
   border-top: solid 3px var(--color-sea);
+}
+
+.header-light {
+  background-color: var(--color-cement);
+}
+
+.thl a,
+.header-light a {
+  color: #000;
 }
 
 @media only screen and (min-width: 38em) {
 
-  header .th {
+  header .th,
+  header .thl{
     text-align: left;
   }
 
