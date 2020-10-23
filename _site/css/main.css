@@ -4030,7 +4030,12 @@ footer nav a:hover {
 }
 
 .contact {
-  background-color: var(--color-charcoal-light);
+  background-color: var(--color-charcoal);
+  color: var(--color-cement-light);
+}
+
+.contact h1 {
+  font-weight: 400;
 }
 
 .preview-intro {
@@ -4041,7 +4046,7 @@ footer nav a:hover {
 @media only screen and (min-width: 60em) {
 
   .preview-intro {
-    padding-left: 2em;
+    padding-left: 3em;
   }
 
 }
