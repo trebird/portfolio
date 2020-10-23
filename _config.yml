@@ -2,6 +2,11 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+
+  layouts:
+    default: |
+      The default layour should be used for the homepage and contains the websites primary header.
+
   title: "Portfolio"
   description: |
     Online portfolio for my graphic design work.
