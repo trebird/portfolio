@@ -3,6 +3,28 @@
   color: var(--color-cement);
 }
 
-.hello p {
+.work-preview {
+  height: ;
+  background-color: var(--color-cement);
+}
+
+.work-preview h1 {
+  font-weight: 600;
+}
+
+.contact {
+  background-color: var(--color-charcoal-light);
+}
+
+.preview-intro {
+  font-weight: 300;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .preview-intro {
+    padding-left: 2em;
+  }
 
 }

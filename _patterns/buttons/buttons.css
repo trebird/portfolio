@@ -14,7 +14,7 @@
 
 .btn-shadow {
   top: 7px;
-  right: 2px;
+  right: -1px;
   border-radius: 50px;
   height: 160%;
   width: 112%;
