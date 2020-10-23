@@ -4020,8 +4020,12 @@ footer nav a:hover {
   color: var(--color-cement);
 }
 
+.hello-intro {
+  padding-top: 1em;
+  border-top: solid 2px var(--color-cement);
+}
+
 .work-preview {
-  height: ;
   background-color: var(--color-cement);
 }
 
@@ -4038,10 +4042,13 @@ footer nav a:hover {
   font-weight: 400;
 }
 
+.type p {
+  color: var(--color-sea);
+}
+
 .preview-intro {
   font-weight: 300;
 }
-
 
 @media only screen and (min-width: 60em) {
 
@@ -4049,6 +4056,18 @@ footer nav a:hover {
     padding-left: 3em;
   }
 
+}
+
+@media only screen and (min-width: 90em) {
+
+  .preview-intro {
+    padding-left: 3em;
+  }
+
+}
+
+.link-box {
+  margin-left: -8px;
 }
 
 .btn {
@@ -4067,7 +4086,7 @@ footer nav a:hover {
 
 .btn-shadow {
   top: 7px;
-  right: -1px;
+  right: -4px;
   border-radius: 50px;
   height: 160%;
   width: 112%;

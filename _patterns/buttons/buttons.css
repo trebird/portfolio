@@ -1,3 +1,7 @@
+.link-box {
+  margin-left: -8px;
+}
+
 .btn {
   z-index:1000;
   border: solid 2px;
@@ -14,7 +18,7 @@
 
 .btn-shadow {
   top: 7px;
-  right: -1px;
+  right: -4px;
   border-radius: 50px;
   height: 160%;
   width: 112%;
