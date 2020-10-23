@@ -1,11 +1,15 @@
 .banner {
   background-color: var(--color-charcoal);
   width: 100%;
-  color: var(--color-cement)
+  color: rgba(234,234,234,.15);
 }
 
 .banner span {
   color: var(--color-charcoal-light);
+}
+
+.banner .fs {
+  color: rgba(234,234,234,.15);
 }
 
 .banner-content h1 {
