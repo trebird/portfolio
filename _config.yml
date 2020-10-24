@@ -1,4 +1,7 @@
+markdown: redcarpet
+baseurl: /portfolio
 permalink: pretty
+exclude: ['README.md']
 theme: jekyll_patternbot
 
 patternbot:
