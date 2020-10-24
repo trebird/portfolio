@@ -4178,8 +4178,8 @@ header a {
   transition: all .25s ease-in-out;
 }
 
-.th a,
-.thl a {
+.site-title a,
+.site-title-light a {
   font-weight: 100;
   padding-right: .75em;
 }
@@ -4197,15 +4197,15 @@ header nav a:active {
   background-color: var(--color-cement);
 }
 
-.thl a,
+.site-title-light a,
 .header-light a {
   color: #000;
 }
 
 @media only screen and (min-width: 38em) {
 
-  header .th,
-  header .thl{
+  header .site-title,
+  header .site-title-light{
     text-align: left;
   }
 
