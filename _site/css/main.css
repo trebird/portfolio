@@ -2314,8 +2314,8 @@ menu {
 }
 
 .tena {
-  font-size: 1.7926rem;
-  line-height: 2.6rem;
+  font-size: 3.0518rem;
+  line-height: 4.2rem;
 }
 
 .nina {
@@ -4067,7 +4067,7 @@ footer nav a:hover {
 }
 
 .link-box {
-  margin-left: -8px;
+  margin-left: -5px;
 }
 
 .btn {
@@ -4086,7 +4086,7 @@ footer nav a:hover {
 
 .btn-shadow {
   top: 7px;
-  right: -4px;
+  right: -3px;
   border-radius: 50px;
   height: 160%;
   width: 112%;
@@ -4210,7 +4210,7 @@ header nav a:hover {
 
 .banner {
   background-color: var(--color-charcoal);
-  width: 100%;
+
   color: rgba(234,234,234,.15);
 }
 
