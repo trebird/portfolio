@@ -60,3 +60,15 @@ p {
   font-family: var(--font-secondary);
   font-weight: 700;
 }
+
+.nav-bottom {
+  text-align: left;
+}
+
+.nav-bottom li:first-child {
+  padding-left: 0;
+}
+
+.nav-bottom a {
+  text-decoration: none;
+}

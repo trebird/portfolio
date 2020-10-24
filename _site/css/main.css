@@ -3982,6 +3982,18 @@ p {
   font-weight: 700;
 }
 
+.nav-bottom {
+  text-align: left;
+}
+
+.nav-bottom li:first-child {
+  padding-left: 0;
+}
+
+.nav-bottom a {
+  text-decoration: none;
+}
+
 footer {
   background-color: var(--color-charcoal);
   width: 100%;
@@ -4168,7 +4180,7 @@ header a {
 
 .th a,
 .thl a {
-  font-weight: 400;
+  font-weight: 100;
   padding-right: .75em;
 }
 
