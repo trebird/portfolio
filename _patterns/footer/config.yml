@@ -1,0 +1,8 @@
+patterns:
+  footer:
+    description: |
+      The work-preview is used on the homepage to display each case study
+    fields:
+      - name: text
+        type: string
+        example: "want to talk about it?"

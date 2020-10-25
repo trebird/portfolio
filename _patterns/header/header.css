@@ -47,11 +47,7 @@ header nav a:active {
 }
 
 header nav a:hover {
-  color: var(--color-cement);
-  border-top: solid 3px var(--color-sea);
-  text-shadow: 0px 20px 15px var(--color-sea);
-}
-
-header-light nav a:hover {
   color: var(--color-charcoal-light);
+  border-top: solid 3px var(--color-sea);
+  text-shadow: 0px 25px 15px var(--color-sea);
 }
