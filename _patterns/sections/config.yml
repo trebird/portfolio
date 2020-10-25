@@ -1,8 +1,8 @@
 patterns:
-  preview-card:
+  work-preview:
     width: 100%
     description: |
-      The preview-card is used on the homepage to display each case study
+      The work-preview is used on the homepage to display each case study
     fields:
       - name: data
         type: object
