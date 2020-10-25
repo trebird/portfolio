@@ -17,20 +17,34 @@
   font-weight: 400;
 }
 
-.preview-card {
+.work-preview {
   background-color: var(--color-cement);
 }
 
 .work-preview h1 {
   font-weight: 600;
+  margin-bottom: -.25em;
 }
 
-.peview-title h6 {
+.project-kind {
   color: var(--color-sea);
+  font-weight: 400;
 }
 
 .preview-intro {
   font-weight: 300;
+}
+
+preview-content {
+  top: -10em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .preview-intro {
+    padding-left: 1em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {

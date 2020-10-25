@@ -11,9 +11,11 @@
 <body>
 
   {% pattern header/header-light %}
+  <div class="gutter-2">
+    <h1>{{page.name}}</h1>
+    <p>{{page.description}}</p>
+  </div>
 
-  <h1>{{page.name}}</h1>
-  <p>{{page.description}}</p>
   <img class="img-flex" src="{{page.image}}" alt="">
 
   {% pattern footer/footer %}

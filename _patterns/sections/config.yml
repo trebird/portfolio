@@ -1,11 +1,21 @@
 patterns:
   work-preview:
-    width: 100%
     description: |
       The work-preview is used on the homepage to display each case study
     fields:
-      - name: data
-        type: object
+      - name: title
+        type: string
+        example: "Nature&#146s Care"
+      - name: details
+        type: string
+        example: "logo design / branding / stationery"
+      - name: description
+        type: string
+        example: "Nature&#146s Care Health is a local health product shop"
+      - name: image
+        type: image
+        example: "/images/case-studies/natures-care-0.jpg"
+
         data:
           source: "site.case-studies"
           type: Case Study

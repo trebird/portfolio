@@ -4037,14 +4037,6 @@ footer nav a:hover {
   border-top: solid 2px var(--color-cement);
 }
 
-.work-preview {
-  background-color: var(--color-cement);
-}
-
-.work-preview h1 {
-  font-weight: 600;
-}
-
 .contact {
   background-color: var(--color-charcoal);
   color: var(--color-cement-light);
@@ -4054,12 +4046,34 @@ footer nav a:hover {
   font-weight: 400;
 }
 
-.project-kind h6 {
+.work-preview {
+  background-color: var(--color-cement);
+}
+
+.work-preview h1 {
+  font-weight: 600;
+  margin-bottom: -.25em;
+}
+
+.project-kind {
   color: var(--color-sea);
+  font-weight: 400;
 }
 
 .preview-intro {
   font-weight: 300;
+}
+
+preview-content {
+  top: -10em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .preview-intro {
+    padding-left: 1em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
