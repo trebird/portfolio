@@ -1,0 +1,11 @@
+patterns:
+  preview-card:
+    width: 100%
+    description: |
+      The preview-card is used on the homepage to display each case study
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.case-studies"
+          type: Case Study

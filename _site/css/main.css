@@ -3951,7 +3951,7 @@ h4, h5 {
 h6 {
   font-family: var(--font-primary);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 
@@ -4054,7 +4054,7 @@ footer nav a:hover {
   font-weight: 400;
 }
 
-.type p {
+.project-kind h6 {
   color: var(--color-sea);
 }
 
@@ -4218,6 +4218,10 @@ header nav a:hover {
   color: var(--color-cement);
   border-top: solid 3px var(--color-sea);
   text-shadow: 0px 20px 15px var(--color-sea);
+}
+
+header-light nav a:hover {
+  color: var(--color-charcoal-light);
 }
 
 .banner {

@@ -22,3 +22,13 @@ patternbot:
       buttons.basic: "--color-cement"
       buttons.glow: "--color-charcoal"
       header: "--color-charcoal"
+
+collections:
+  case-studies:
+    output: true
+
+defaults:
+  - scope:
+      path: _case-studies
+    values:
+      layout: case-studies
