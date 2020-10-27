@@ -5,7 +5,7 @@ header {
 header a {
   font-family: var(--font-secondary);
   text-decoration: none;
-  color: #fff;
+  color: var(--color-cement);
 
   transition: all .25s ease-in-out;
 }

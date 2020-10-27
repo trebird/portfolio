@@ -11,11 +11,28 @@ patterns:
         example: "logo design / branding / stationery"
       - name: description
         type: string
-        example: "Nature&#146s Care Health is a local health product shop"
+        example: "Nature&#146s Care is a local health product shop"
       - name: image
         type: image
         example: "natures-care-0.jpg"
-
+      - name: data
+        type: object
         data:
-          source: "site.case-studies"
-          type: Case Study
+          source: "site.case-studies[0]"
+          type: Project
+
+  image-full:
+    fields:
+      - name: image
+        type: image
+        example: "natures-care-3.jpg"
+
+
+  image-half:
+    fields:
+      - name: image
+        type: image
+        example: "natures-care-4.jpg"
+      - name: image
+        type: image
+        example: "natures-care-4.jpg"

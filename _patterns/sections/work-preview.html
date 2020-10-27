@@ -1,7 +1,7 @@
 <section class="work-preview">
 
-  <div class="embed embed-16by9">
-    <img class="embed-item img-flex review-img" src="/images/case-studies/{{include.image}}" alt="">
+  <div class="embed embed-24by10">
+    <img class="embed-item img-flex preview-img" src="/images/case-studies/{{include.image}}" alt="">
   </div>
   <div class="preview-content pad-b-2 gutter-2">
     <div class="gutter-2 pad-t-2">
@@ -10,14 +10,15 @@
         <div class="unit xs-1 m-1-2 l-1-3 preview-title push">
           <span class="milli project-kind">{{include.details}}</span>
         </div>
-        <div class="unit xs-1 m-1-2 l-2-3 preview-intro">
+        <div class="unit xs-1 m-1-2 l-2-3 preview-intro push">
           <p class= "milli push-0 max-length-no-center preview-intro">{{include.description}}</p>
         </div>
         <div class="unit xs-1">
-          <a href="#"></a>
+          {% pattern buttons/basic url=include.data.url %}
         </div>
       </div>
     </div>
+
 
   </div>
 </section>

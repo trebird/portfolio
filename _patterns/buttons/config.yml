@@ -1,0 +1,6 @@
+patterns:
+  basic:
+    fields:
+      - name: url
+        type: url
+        example: "/case-studies/natures-care/"

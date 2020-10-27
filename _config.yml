@@ -1,4 +1,6 @@
 permalink: pretty
+baseurl: /portfolio
+
 theme: jekyll_patternbot
 
 patternbot:
@@ -26,6 +28,7 @@ patternbot:
 collections:
   case-studies:
     output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:

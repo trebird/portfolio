@@ -4068,6 +4068,10 @@ preview-content {
   top: -10em;
 }
 
+.portrait {
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .preview-intro {
@@ -4187,7 +4191,7 @@ header {
 header a {
   font-family: var(--font-secondary);
   text-decoration: none;
-  color: #fff;
+  color: var(--color-cement);
 
   transition: all .25s ease-in-out;
 }
