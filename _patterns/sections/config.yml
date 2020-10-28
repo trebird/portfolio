@@ -37,6 +37,12 @@ patterns:
       - name: detail-3
         type: string
         example: "stationery"
+      - name: description
+        type: string
+        example: "Nature’s Care is a health product shop located in downtown Ottawa."
+        data:
+          source: "site.case-studies[0]"
+          type: Project
 
 
   image-full:
@@ -44,7 +50,9 @@ patterns:
       - name: image
         type: image
         example: "natures-care-3.jpg"
-
+        data:
+          source: "site.case-studies[0]"
+          type: Project
 
   image-half:
     fields:
@@ -54,3 +62,6 @@ patterns:
       - name: image
         type: image
         example: "natures-care-4.jpg"
+        data:
+          source: "site.case-studies[0]"
+          type: Project
