@@ -4241,6 +4241,8 @@ html {
   font-family: var(--font-primary);
   font-style: normal;
   font-weight: 200;
+  widows: 2;
+  orphans: 2;
 }
 
 h1, h2, h3 {
@@ -4304,19 +4306,20 @@ p {
 footer {
   background-color: var(--color-charcoal);
   width: 100%;
-  color: var(--color-cement)
+  color: var(--color-charcoal-light)
 }
 
 .talk {
-  border-top: solid 2px var(--color-cement);
+  border-top: solid 2px var(--color-charcoal-light);
 }
 
 .talk p {
   font-family: var(--font-secondary);
-  font-size: 5rem;
-  line-height: 5rem;
+  font-size: 6em;
+  line-height: 6rem;
   padding-top: .5em;
   left: -10em;
+  hyphens: auto;
 }
 
 .talk a {
@@ -4342,6 +4345,7 @@ footer nav a:hover {
 .hello-intro {
   padding-top: 1em;
   border-top: solid 2px var(--color-cement);
+  hyphens: auto;
 }
 
 .contact {
@@ -4350,7 +4354,7 @@ footer nav a:hover {
 }
 
 .contact h1 {
-  font-weight: 400;
+  font-weight: 100;
 }
 
 .work-preview {
@@ -4375,8 +4379,15 @@ preview-content {
   top: -10em;
 }
 
-.portrait {
+.work-about {
+  background-color: var(--color-cement);
+}
 
+
+
+.work-about ul li::before {
+  content: "\2022";
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 38em) {

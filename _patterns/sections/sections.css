@@ -6,6 +6,7 @@
 .hello-intro {
   padding-top: 1em;
   border-top: solid 2px var(--color-cement);
+  hyphens: auto;
 }
 
 .contact {
@@ -14,7 +15,7 @@
 }
 
 .contact h1 {
-  font-weight: 400;
+  font-weight: 100;
 }
 
 .work-preview {
@@ -39,8 +40,15 @@ preview-content {
   top: -10em;
 }
 
-.portrait {
+.work-about {
+  background-color: var(--color-cement);
+}
 
+
+
+.work-about ul li::before {
+  content: "\2022";
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 38em) {

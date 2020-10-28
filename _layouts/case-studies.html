@@ -11,15 +11,14 @@
 <body>
 
   {% pattern header/header-light %}
-  <div class="gutter-2">
-    <div class="gutter-2 pad-t-2">
-      <h1>{{page.name}}</h1>
-      <p>{{page.description}}</p>
-    </div>
+  {% pattern sections/image-full image="natures-care-3.jpg" %}
+
+
+  {% pattern sections/work-about title="Nature’s Care" detail-1="logo design" detail-2="branding" detail-3="stationery" %}
   </div>
     <div class="">
       {% pattern sections/image-full image="natures-care-3.jpg" %}
-      {% pattern sections/image-half image="natures-care-4.jpg" image="natures-care-4.jpg" %}
+      {% pattern sections/image-half image="natures-care-4.jpg" image="natures-care-5.jpg" %}
     </div>
 
 

@@ -5,13 +5,13 @@ patterns:
     fields:
       - name: title
         type: string
-        example: "Nature&#146s Care"
+        example: "Nature’s Care"
       - name: details
         type: string
-        example: "logo design / branding"
+        example: "logo design / branding / statinery"
       - name: description
         type: string
-        example: "Nature&#146s Care is a local health product shop"
+        example: "Nature’s Care is a local health product shop"
       - name: image
         type: image
         example: "natures-care-0.jpg"
@@ -20,6 +20,24 @@ patterns:
         data:
           source: "site.case-studies[0]"
           type: Project
+
+  work-about:
+    description: |
+      The work-about section is used for introducting project details on case study pages.
+    fields:
+      - name: title
+        type: string
+        example: "Nature’s Care"
+      - name: detail-1
+        type: string
+        example: "logo design"
+      - name: detail-2
+        type: string
+        example: "branding"
+      - name: detail-3
+        type: string
+        example: "stationery"
+
 
   image-full:
     fields:
