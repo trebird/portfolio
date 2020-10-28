@@ -4,3 +4,6 @@ patterns:
       - name: url
         type: url
         example: "/case-studies/natures-care/"
+      - name: text
+        type: text
+        example: "view project"

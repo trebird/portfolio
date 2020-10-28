@@ -32,23 +32,24 @@
   font-weight: 400;
 }
 
-.preview-intro {
-  font-weight: 300;
-}
-
 preview-content {
   top: -10em;
 }
 
 .work-about {
   background-color: var(--color-cement);
+  hyphens: auto;
 }
-
-
 
 .work-about ul li::before {
   content: "\2022";
-  font-weight: 600;
+  font-weight: 800;
+  color: var(--color-sea);
+}
+
+.img-full,
+.img-half {
+  background-color: var(--color-cement);
 }
 
 @media only screen and (min-width: 38em) {

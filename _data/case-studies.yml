@@ -7,6 +7,7 @@
   description: "Logo design and branding for a local health product shop."
   image: "natures-care-0.jpg"
   url: "/case-studies/natures-care/"
+  text: "view project"
 
 - title: "Mindu"
   details: "ux/ui / app prototype / logo reveal"
@@ -16,3 +17,4 @@
   detail-1: "ux/ui"
   detail-2: "logo design"
   detail-3: "motion"
+  text: "view project"
