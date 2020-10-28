@@ -14,7 +14,7 @@ a {
 }
 
 .btn-container {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 sub,
@@ -447,8 +447,8 @@ textarea {
 
 .gutter-double,
 .gutter-2 {
-  padding-left: 2.6rem;
-  padding-right: 2.6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .gutter-three-quarters,

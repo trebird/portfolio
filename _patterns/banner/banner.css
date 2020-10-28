@@ -14,5 +14,5 @@
 
 .banner-content h1 {
   font-weight: 400;
-  left: -10em;
+  hyphens: auto;
 }

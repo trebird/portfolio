@@ -8,7 +8,7 @@ patterns:
         example: "Nature&#146s Care"
       - name: details
         type: string
-        example: "logo design / branding / stationery"
+        example: "logo design / branding"
       - name: description
         type: string
         example: "Nature&#146s Care is a local health product shop"
