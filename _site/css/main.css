@@ -4247,7 +4247,7 @@ html {
 
 h1, h2, h3 {
   font-family: var(--font-secondary);
-  font-style: 400l;
+  font-weight: 100;
 }
 
 h4, h5 {
@@ -4348,12 +4348,31 @@ footer nav a:hover {
   hyphens: auto;
 }
 
+.portrait {
+  box-shadow: -1.5em 1.75em 12px  rgba(16,95,80,.25);
+  border-radius: 300px;
+}
+
+.harvey {
+  z-index: 1001;
+  transition: all .25s ease-in-out;
+}
+
+.harvey:hover .harvey-hover {
+  z-index: 1002;
+}
+
+.fig {
+  font-weight: 600;
+  hyphens: auto;
+}
+
 .contact {
   background-color: var(--color-charcoal);
   color: var(--color-cement-light);
 }
 
-.contact h1 {
+.contact h1, {
   font-weight: 100;
 }
 
@@ -4361,13 +4380,20 @@ footer nav a:hover {
   background-color: var(--color-cement);
 }
 
-.work-preview h1,
+.work-preview h1 {
+  font-size: 1.9531rem;
+  line-height: 2.8rem;
+  font-weight: 600;
+  margin-bottom: -.35em;
+}
+
+
 .work-about h1 {
   font-size: 1.9531rem;
   line-height: 2.8rem;
   font-weight: 600;
-  margin-bottom: -.25em;
 }
+
 
 .project-kind {
   color: var(--color-sea);
@@ -4394,12 +4420,6 @@ preview-content {
 .img-full,
 .img-half {
   background-color: var(--color-cement);
-}
-
-@media only screen and (min-width: 38em) {
-
-
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -4429,6 +4449,7 @@ preview-content {
   z-index:1000;
   border: solid 2px;
   font-weight: 400;
+  font-size: 20px;
   width: 100%;
   height: 100%;
   background-color: Transparent;

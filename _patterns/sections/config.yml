@@ -49,7 +49,6 @@ patterns:
           source: "site.case-studies[0]"
           type: Project
 
-
   image-full:
     fields:
       - name: image

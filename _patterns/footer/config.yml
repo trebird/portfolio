@@ -3,4 +3,4 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "thank you for stopping by"
+        example: "thank you for stopping by!"

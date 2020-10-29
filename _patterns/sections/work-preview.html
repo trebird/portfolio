@@ -1,6 +1,5 @@
 <section class="work-preview pad-b-2">
-
-  <div class="preview-img">
+  <div class="">
     {% pattern sections/preview-img image=include.image %}
   </div>
   <div class="preview-content pad-b-2 gutter-2 wrapper">
@@ -13,10 +12,12 @@
         <div class="preview-intro push">
           <p class= "push-0 max-length-no-center preview-intro">{{include.description}}</p>
         </div>
-        <div>
+        <div class="push">
           {% pattern buttons/basic url=include.data.url text=include.data.text %}
         </div>
       </div>
     </div>
+
+
   </div>
 </section>

@@ -20,7 +20,7 @@ html {
 
 h1, h2, h3 {
   font-family: var(--font-secondary);
-  font-style: 400l;
+  font-weight: 100;
 }
 
 h4, h5 {
