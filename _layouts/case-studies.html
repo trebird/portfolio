@@ -14,12 +14,26 @@
   {% pattern sections/image-full image=page.image-banner %}
   {% pattern sections/work-about title=page.name detail-1=page.detail-1 detail-2=page.detail-2 detail-3=page.detail-3 description=page.description %}
 
-
-  </div>
-    <div class="">
-      {% pattern sections/image-half image="natures-care-4.jpg" image="natures-care-5.jpg" %}
-      {% pattern sections/image-full image="natures-care-3.jpg" %}
+  <div class="grid">
+    <div class="unit xs-1 m-2">
+      {% pattern sections/image-full image=page.image-1 %}
     </div>
+    <div class="unit xs-1 m-2">
+      {% pattern sections/image-full image=page.image-2 %}
+    </div>
+  </div>
+  <div class="grid">
+    <div class="unit xs-1">
+      {% pattern sections/image-full image=page.image-3 %}
+    </div>
+    <div class="unit xs-1">
+      {% pattern sections/image-full image=page.image-4 %}
+    </div>
+    <div class="unit xs-1">
+      {% pattern sections/image-full image=page.image-5 %}
+    </div>
+  </div>
+
 
   {% pattern footer/footer %}
 

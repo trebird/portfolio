@@ -4,12 +4,14 @@
 }
 
 .hello-intro {
+  border-top: solid 2px var(--color-cement);
   hyphens: auto;
   font-weight: 300;
+  padding-top: 1em;
 }
 
 .hello-text {
-  font-weight: 200;
+  font-weight: 100;
   hyphens: auto;
 }
 
