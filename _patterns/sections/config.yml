@@ -1,7 +1,7 @@
 patterns:
   work-preview:
     description: |
-      The work-preview is used on the homepage to display each case study
+      The work-preview is used on the homepage to display content for each case study preview.
     fields:
       - name: title
         type: string
@@ -12,14 +12,19 @@ patterns:
       - name: description
         type: string
         example: "Nature’s Care is a local health product shop"
-      - name: image
-        type: image
-        example: "natures-care-0.jpg"
       - name: data
         type: object
         data:
           source: "site.case-studies[0]"
           type: Project
+
+  preview-img:
+    description: |
+      The preview-img is a preview image of the case study
+    fields:
+      - name: image
+        type: image
+        example: "natures-care-0.jpg"
 
   work-about:
     description: |

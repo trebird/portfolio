@@ -7,3 +7,11 @@ patterns:
       - name: text
         type: text
         example: "view project"
+  glow:
+    fields:
+      - name: url
+        type: url
+        example: "mailto:hello@treawnaharvey.ca"
+      - name: text
+        type: text
+        example: say hello

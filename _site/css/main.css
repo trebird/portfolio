@@ -4310,7 +4310,7 @@ footer {
 }
 
 .talk {
-  border-top: solid 2px var(--color-charcoal-light);
+  border-top: solid 3px var(--color-charcoal-light);
 }
 
 .talk p {
@@ -4361,7 +4361,10 @@ footer nav a:hover {
   background-color: var(--color-cement);
 }
 
-.work-preview h1 {
+.work-preview h1,
+.work-about h1 {
+  font-size: 1.9531rem;
+  line-height: 2.8rem;
   font-weight: 600;
   margin-bottom: -.25em;
 }
@@ -4372,7 +4375,8 @@ footer nav a:hover {
 }
 
 preview-content {
-  top: -10em;
+  top: -100em;
+  z-index: 1001;
 }
 
 .work-about {
@@ -4384,6 +4388,7 @@ preview-content {
   content: "\2022";
   font-weight: 800;
   color: var(--color-sea);
+  margin-right:
 }
 
 .img-full,
@@ -4393,26 +4398,27 @@ preview-content {
 
 @media only screen and (min-width: 38em) {
 
-  .preview-intro {
-    padding-left: 1em;
-  }
+
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  .preview-intro {
-    padding-left: 3em;
+  .work-preview h1,
+  .work-about h1 {
+    font-size: 1.9531rem;
+    line-height: 2.8rem;
   }
 
 }
 
 @media only screen and (min-width: 90em) {
 
-  .preview-intro {
-    padding-left: 3em;
+  .work-preview h1,
+  .work-about h1 {
+    font-size: 1.9531rem;
+    line-height: 2.625rem;
   }
-
 }
 
 .link-box {

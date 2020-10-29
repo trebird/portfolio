@@ -2034,6 +2034,8 @@
           
             <li><a href="#sections--work-preview">Work preview</a></li>
           
+            <li><a href="#sections--preview-img">Preview img</a></li>
+          
             <li><a href="#sections--work-about">Work about</a></li>
           
             <li><a href="#sections--image-full">Image full</a></li>
@@ -2092,7 +2094,7 @@
         </div>
         
           <div class="pattern-desc milli island">
-            <div class="max-length"><p>The work-preview is used on the homepage to display each case study</p>
+            <div class="max-length"><p>The work-preview is used on the homepage to display content for each case study preview.</p>
 </div>
           </div>
         
@@ -2129,7 +2131,7 @@
                 </i>
               </button>
               
-                <code><pre id="sections-work-preview-code-sample-copy-chunk">{% pattern sections/work-preview title=&quot;Nature’s Care&quot; details=&quot;logo design / branding / statinery&quot; description=&quot;Nature’s Care is a local health product shop&quot; image=&quot;natures-care-0.jpg&quot; data=Project %}</pre></code>
+                <code><pre id="sections-work-preview-code-sample-copy-chunk">{% pattern sections/work-preview title=&quot;Nature’s Care&quot; details=&quot;logo design / branding / statinery&quot; description=&quot;Nature’s Care is a local health product shop&quot; data=Project %}</pre></code>
               
               
                 <div class="pad-t-1-2">
@@ -2218,6 +2220,124 @@
                       
                         <tr>
                           <th scope="row" colspan="7">
+                            <code class="pattern-code-field valign-middle ">data</code>
+                            <span class="ib pico not-bold italic valign-middle">required</span>
+                          </th>
+                          <td scope="col" colspan="6">
+                            
+                              <code class="pattern-code-field">
+                                
+                                  object
+                                
+                              </code>
+                            
+                          </td>
+                          <td scope="col" colspan="11">
+                            
+                              <code class="pattern-code-field">Project</code>
+                            
+                          </td>
+                        </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="pattern-details " id="sections--preview-img">
+      
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Preview img</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+              
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="sections-preview-img-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+              
+              
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/sections/preview-img/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+              
+            </ul>
+        </div>
+        
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>The preview-img is a preview image of the case study</p>
+</div>
+          </div>
+        
+      
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="/pattern-library/patterns/sections/preview-img/index.html" scrolling="no" ></iframe>
+            
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+        
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="sections-preview-img-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#sections-preview-img-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              
+                <code><pre id="sections-preview-img-code-sample-copy-chunk">{% pattern sections/preview-img image=&quot;natures-care-0.jpg&quot; %}</pre></code>
+              
+              
+                <div class="pad-t-1-2">
+                  <hr class="pattern-code-sep push-1-2">
+                  <table class="pattern-code-fields nano push-0">
+                    <thead>
+                      <tr>
+                        <th class="not-bold pico" scope="col" colspan="7">Field name</th>
+                        <th class="not-bold pico" scope="col" colspan="6">Data type</th>
+                        <th class="not-bold pico" scope="col" colspan="11">Example</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      
+                        <tr>
+                          <th scope="row" colspan="7">
                             <code class="pattern-code-field valign-middle ">image</code>
                             <span class="ib pico not-bold italic valign-middle">required</span>
                           </th>
@@ -2236,27 +2356,6 @@
                                 
                                 <span>natures-care-0.jpg</span>
                               
-                            
-                          </td>
-                        </tr>
-                      
-                        <tr>
-                          <th scope="row" colspan="7">
-                            <code class="pattern-code-field valign-middle ">data</code>
-                            <span class="ib pico not-bold italic valign-middle">required</span>
-                          </th>
-                          <td scope="col" colspan="6">
-                            
-                              <code class="pattern-code-field">
-                                
-                                  object
-                                
-                              </code>
-                            
-                          </td>
-                          <td scope="col" colspan="11">
-                            
-                              <code class="pattern-code-field">Project</code>
                             
                           </td>
                         </tr>
@@ -3247,8 +3346,72 @@
                 </i>
               </button>
               
-                <code><pre id="buttons-glow-code-sample-copy-chunk">{% pattern buttons/glow %}</pre></code>
+                <code><pre id="buttons-glow-code-sample-copy-chunk">{% pattern buttons/glow url=&quot;mailto:hello@treawnaharvey.ca&quot; text=&quot;say hello&quot; %}</pre></code>
               
+              
+                <div class="pad-t-1-2">
+                  <hr class="pattern-code-sep push-1-2">
+                  <table class="pattern-code-fields nano push-0">
+                    <thead>
+                      <tr>
+                        <th class="not-bold pico" scope="col" colspan="7">Field name</th>
+                        <th class="not-bold pico" scope="col" colspan="6">Data type</th>
+                        <th class="not-bold pico" scope="col" colspan="11">Example</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      
+                        <tr>
+                          <th scope="row" colspan="7">
+                            <code class="pattern-code-field valign-middle ">url</code>
+                            <span class="ib pico not-bold italic valign-middle">required</span>
+                          </th>
+                          <td scope="col" colspan="6">
+                            
+                              <code class="pattern-code-field">
+                                
+                                  url
+                                
+                              </code>
+                            
+                          </td>
+                          <td scope="col" colspan="11">
+                            
+                              
+                                
+                                <span>mailto:hello@treawnaharvey.ca</span>
+                              
+                            
+                          </td>
+                        </tr>
+                      
+                        <tr>
+                          <th scope="row" colspan="7">
+                            <code class="pattern-code-field valign-middle ">text</code>
+                            <span class="ib pico not-bold italic valign-middle">required</span>
+                          </th>
+                          <td scope="col" colspan="6">
+                            
+                              <code class="pattern-code-field">
+                                
+                                  text
+                                
+                              </code>
+                            
+                          </td>
+                          <td scope="col" colspan="11">
+                            
+                              
+                                
+                                <span>say hello</span>
+                              
+                            
+                          </td>
+                        </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
               
             </div>
           </div>
