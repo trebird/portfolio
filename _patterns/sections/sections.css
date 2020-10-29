@@ -4,8 +4,12 @@
 }
 
 .hello-intro {
-  padding-top: 1em;
-  border-top: solid 2px var(--color-cement);
+  hyphens: auto;
+  font-weight: 300;
+}
+
+.hello-text {
+  font-weight: 200;
   hyphens: auto;
 }
 
@@ -24,8 +28,15 @@
 }
 
 .fig {
-  font-weight: 600;
+  color: var(--color-cement);
   hyphens: auto;
+  border-top: solid 2px var(--color-sea);
+  padding-top: 1em;
+  margin-top: 10em;
+}
+
+.fig span {
+  font-weight: 600;
 }
 
 .contact {
