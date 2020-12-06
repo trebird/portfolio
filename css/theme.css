@@ -43,7 +43,11 @@ ul, ol, dl {
 }
 
 dt {
-  font-weight: 500;
+  font-weight: 600;
+}
+
+dd {
+  font-weight: 300;
 }
 
 mark {

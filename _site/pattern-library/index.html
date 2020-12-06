@@ -2036,6 +2036,8 @@
           
             <li><a href="#sections--preview-img">Preview img</a></li>
           
+            <li><a href="#sections--work-title">Work title</a></li>
+          
             <li><a href="#sections--work-about">Work about</a></li>
           
             <li><a href="#sections--image-full">Image full</a></li>
@@ -2378,6 +2380,146 @@
     
     
     
+    <div class="pattern-details " id="sections--work-title">
+      
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Work title</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+              
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="sections-work-title-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+              
+              
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/sections/work-title/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+              
+            </ul>
+        </div>
+        
+      
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="/pattern-library/patterns/sections/work-title/index.html" scrolling="no" ></iframe>
+            
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+        
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="sections-work-title-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#sections-work-title-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              
+                <code><pre id="sections-work-title-code-sample-copy-chunk">{% pattern sections/work-title title=&quot;Nature’s Care&quot; details=&quot;logo design / brandng / stationery&quot; %}</pre></code>
+              
+              
+                <div class="pad-t-1-2">
+                  <hr class="pattern-code-sep push-1-2">
+                  <table class="pattern-code-fields nano push-0">
+                    <thead>
+                      <tr>
+                        <th class="not-bold pico" scope="col" colspan="7">Field name</th>
+                        <th class="not-bold pico" scope="col" colspan="6">Data type</th>
+                        <th class="not-bold pico" scope="col" colspan="11">Example</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      
+                        <tr>
+                          <th scope="row" colspan="7">
+                            <code class="pattern-code-field valign-middle ">title</code>
+                            <span class="ib pico not-bold italic valign-middle">required</span>
+                          </th>
+                          <td scope="col" colspan="6">
+                            
+                              <code class="pattern-code-field">
+                                
+                                  string
+                                
+                              </code>
+                            
+                          </td>
+                          <td scope="col" colspan="11">
+                            
+                              
+                                
+                                <span>"Nature’s Care"</span>
+                              
+                            
+                          </td>
+                        </tr>
+                      
+                        <tr>
+                          <th scope="row" colspan="7">
+                            <code class="pattern-code-field valign-middle ">details</code>
+                            <span class="ib pico not-bold italic valign-middle">required</span>
+                          </th>
+                          <td scope="col" colspan="6">
+                            
+                              <code class="pattern-code-field">
+                                
+                                  string
+                                
+                              </code>
+                            
+                          </td>
+                          <td scope="col" colspan="11">
+                            
+                              
+                                
+                                <span>"logo design / brandng / stationery"</span>
+                              
+                            
+                          </td>
+                        </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="pattern-details " id="sections--work-about">
       
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
@@ -2442,7 +2584,7 @@
                 </i>
               </button>
               
-                <code><pre id="sections-work-about-code-sample-copy-chunk">{% pattern sections/work-about title=&quot;Nature’s Care&quot; detail-1=&quot;logo design&quot; detail-2=&quot;branding&quot; detail-3=&quot;stationery&quot; description=Project description=&quot;Nature’s Care is a health product shop located in downtown Ottawa.&quot; %}</pre></code>
+                <code><pre id="sections-work-about-code-sample-copy-chunk">{% pattern sections/work-about title=&quot;Nature’s Care&quot; details=&quot;logo design / brandng / stationery&quot; client=&quot;Nature’s Care Health Products&quot; deliverables=&quot;Logo Design, Branding, Stationery&quot; description=Project description=&quot;Nature’s Care is a health product shop located in downtown Ottawa.&quot; %}</pre></code>
               
               
                 <div class="pad-t-1-2">
@@ -2483,7 +2625,7 @@
                       
                         <tr>
                           <th scope="row" colspan="7">
-                            <code class="pattern-code-field valign-middle ">detail-1</code>
+                            <code class="pattern-code-field valign-middle ">details</code>
                             <span class="ib pico not-bold italic valign-middle">required</span>
                           </th>
                           <td scope="col" colspan="6">
@@ -2499,7 +2641,7 @@
                             
                               
                                 
-                                <span>"logo design"</span>
+                                <span>"logo design / brandng / stationery"</span>
                               
                             
                           </td>
@@ -2507,7 +2649,7 @@
                       
                         <tr>
                           <th scope="row" colspan="7">
-                            <code class="pattern-code-field valign-middle ">detail-2</code>
+                            <code class="pattern-code-field valign-middle ">client</code>
                             <span class="ib pico not-bold italic valign-middle">required</span>
                           </th>
                           <td scope="col" colspan="6">
@@ -2523,7 +2665,7 @@
                             
                               
                                 
-                                <span>"branding"</span>
+                                <span>"Nature’s Care Health Products"</span>
                               
                             
                           </td>
@@ -2531,7 +2673,7 @@
                       
                         <tr>
                           <th scope="row" colspan="7">
-                            <code class="pattern-code-field valign-middle ">detail-3</code>
+                            <code class="pattern-code-field valign-middle ">deliverables</code>
                             <span class="ib pico not-bold italic valign-middle">required</span>
                           </th>
                           <td scope="col" colspan="6">
@@ -2547,7 +2689,7 @@
                             
                               
                                 
-                                <span>"stationery"</span>
+                                <span>"Logo Design, Branding, Stationery"</span>
                               
                             
                           </td>

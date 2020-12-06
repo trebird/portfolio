@@ -11,8 +11,9 @@
 <body>
 
   {% pattern header/header-light %}
-  {% pattern sections/image-full image=page.image-banner %}
-  {% pattern sections/work-about title=page.name detail-1=page.detail-1 detail-2=page.detail-2 detail-3=page.detail-3 description=page.description %}
+  {% pattern sections/preview-img image=page.image-banner %}
+  {% pattern sections/work-title title=page.name details=page.details  %}
+  {% pattern sections/work-about description=page.description client=page.client deliverables=page.deliverables%}
 
   <div class="grid">
     <div class="unit xs-1 m-2">

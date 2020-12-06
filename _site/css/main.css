@@ -4270,7 +4270,11 @@ ul, ol, dl {
 }
 
 dt {
-  font-weight: 500;
+  font-weight: 600;
+}
+
+dd {
+  font-weight: 300;
 }
 
 mark {
@@ -4400,13 +4404,14 @@ footer nav a:hover {
   margin-bottom: -.35em;
 }
 
-
-.work-about h1 {
-  font-size: 1.9531rem;
-  line-height: 2.8rem;
-  font-weight: 600;
+.work-title {
+  background-color: var(--color-cement);
 }
 
+.work-title h1 {
+  font-weight: 600;
+  margin-bottom: -.4em;
+}
 
 .project-kind {
   color: var(--color-sea);
@@ -4419,15 +4424,12 @@ preview-content {
 }
 
 .work-about {
-  background-color: var(--color-cement);
+  background-color: var(--color-cement-light);
   hyphens: auto;
 }
 
-.work-about ul li::before {
-  content: "\2022";
-  font-weight: 800;
-  color: var(--color-sea);
-  margin-right:
+.intro-p {
+  font-weight: 300;
 }
 
 .img-full,
@@ -4437,8 +4439,7 @@ preview-content {
 
 @media only screen and (min-width: 60em) {
 
-  .work-preview h1,
-  .work-about h1 {
+  .work-preview h1 {
     font-size: 1.9531rem;
     line-height: 2.8rem;
   }
@@ -4447,8 +4448,7 @@ preview-content {
 
 @media only screen and (min-width: 90em) {
 
-  .work-preview h1,
-  .work-about h1 {
+  .work-preview h1 {
     font-size: 1.9531rem;
     line-height: 2.625rem;
   }
