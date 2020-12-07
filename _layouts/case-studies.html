@@ -11,15 +11,15 @@
 <body>
 
   {% pattern header/header-light %}
+  {% pattern sections/work-title title=page.name project-colour=page.project-colour details=page.details  %}
   {% pattern sections/preview-img image=page.image-banner %}
-  {% pattern sections/work-title title=page.name details=page.details  %}
-  {% pattern sections/work-about description=page.description client=page.client deliverables=page.deliverables%}
+  {% pattern sections/work-about project-colour=page.project-colour description=page.description client=page.client deliverables=page.deliverables%}
 
   <div class="grid">
-    <div class="unit xs-1 m-2">
+    <div class="unit xs-1">
       {% pattern sections/image-full image=page.image-1 %}
     </div>
-    <div class="unit xs-1 m-2">
+    <div class="unit xs-1">
       {% pattern sections/image-full image=page.image-2 %}
     </div>
   </div>

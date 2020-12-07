@@ -1,6 +1,5 @@
 .banner {
   background-color: var(--color-charcoal);
-
   color: rgba(234,234,234,.15);
 }
 
@@ -14,5 +13,12 @@
 
 .banner-content h1 {
   font-weight: 400;
-  hyphens: auto;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .banner-content h1 {
+     hyphens: auto;
+    }
+
 }

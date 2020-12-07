@@ -244,13 +244,13 @@ textarea {
 
 small,
 .milli {
-  font-size: .9372rem;
-  line-height: 1.3rem;
+  font-size: .8rem;
+  line-height: 1.4rem;
 }
 
 .micro {
-  font-size: .8784rem;
-  line-height: 1.3rem;
+  font-size: .64rem;
+  line-height: 1.05rem;
 }
 
 .nano {
@@ -441,14 +441,14 @@ textarea {
 }
 
 .gutter {
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 
 .gutter-double,
 .gutter-2 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .gutter-three-quarters,
@@ -580,8 +580,8 @@ legend {
   }
 
   .tena {
-    font-size: 7.4506rem;
-    line-height: 9.8rem;
+    font-size: 5rem;
+    line-height: 5rem;
   }
 
   .nina {

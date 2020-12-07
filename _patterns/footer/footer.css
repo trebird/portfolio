@@ -8,10 +8,10 @@ footer {
   border-top: solid 3px var(--color-charcoal-light);
 }
 
-.talk p {
+.talk h1 {
   font-family: var(--font-secondary);
-  font-size: 6em;
-  line-height: 6rem;
+  font-size: 3em;
+  line-height: 3rem;
   padding-top: .5em;
   left: -10em;
   hyphens: auto;
@@ -24,10 +24,19 @@ footer {
   border: none;
 }
 
-.terms, nav a {
-  color: var(--color-cement-light);
+footer p {
+  color: var(--color-cement);
 }
 
-footer nav a:hover {
-  color: var(--color-sea);
+@media only screen and (min-width: 25em) {
+
+  .talk h1 {
+    font-family: var(--font-secondary);
+    font-size: 6em;
+    line-height: 6rem;
+    padding-top: .5em;
+    left: -10em;
+    hyphens: auto;
+  }
+
 }

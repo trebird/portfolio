@@ -2679,13 +2679,13 @@ textarea {
 
 small,
 .milli {
-  font-size: .9372rem;
-  line-height: 1.3rem;
+  font-size: .8rem;
+  line-height: 1.4rem;
 }
 
 .micro {
-  font-size: .8784rem;
-  line-height: 1.3rem;
+  font-size: .64rem;
+  line-height: 1.05rem;
 }
 
 .nano {
@@ -2876,14 +2876,14 @@ textarea {
 }
 
 .gutter {
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 
 .gutter-double,
 .gutter-2 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .gutter-three-quarters,
@@ -3015,8 +3015,8 @@ legend {
   }
 
   .tena {
-    font-size: 7.4506rem;
-    line-height: 9.8rem;
+    font-size: 5rem;
+    line-height: 5rem;
   }
 
   .nina {
@@ -4287,6 +4287,8 @@ a {
 
 p {
   font-weight: 200;
+  font-size: 1rem;
+  line-height: 1.5rem;
 
 }
 
@@ -4317,10 +4319,10 @@ footer {
   border-top: solid 3px var(--color-charcoal-light);
 }
 
-.talk p {
+.talk h1 {
   font-family: var(--font-secondary);
-  font-size: 6em;
-  line-height: 6rem;
+  font-size: 3em;
+  line-height: 3rem;
   padding-top: .5em;
   left: -10em;
   hyphens: auto;
@@ -4333,12 +4335,21 @@ footer {
   border: none;
 }
 
-.terms, nav a {
-  color: var(--color-cement-light);
+footer p {
+  color: var(--color-cement);
 }
 
-footer nav a:hover {
-  color: var(--color-sea);
+@media only screen and (min-width: 25em) {
+
+  .talk h1 {
+    font-family: var(--font-secondary);
+    font-size: 6em;
+    line-height: 6rem;
+    padding-top: .5em;
+    left: -10em;
+    hyphens: auto;
+  }
+
 }
 
 .hello {
@@ -4414,8 +4425,20 @@ footer nav a:hover {
 }
 
 .project-kind {
-  color: var(--color-sea);
   font-weight: 400;
+  color: var(--color-sea);
+}
+
+.project-colour {
+  font-weight: 400;
+}
+
+.natures-care {
+  color: #56756f;
+}
+
+.mindu {
+  color: #4332f0;
 }
 
 preview-content {
@@ -4545,6 +4568,9 @@ preview-content {
 
 header {
   background-color: var(--color-charcoal);
+
+  width: 100%;
+  z-index: 2000;
 }
 
 header a {
@@ -4593,14 +4619,13 @@ nav ul {
 }
 
 header nav a:hover {
-  color: var(--color-charcoal-light);
+
   border-top: solid 2.5px var(--color-sea);
   text-shadow: 0px 25px 15px var(--color-sea);
 }
 
 .banner {
   background-color: var(--color-charcoal);
-
   color: rgba(234,234,234,.15);
 }
 
@@ -4614,6 +4639,13 @@ header nav a:hover {
 
 .banner-content h1 {
   font-weight: 400;
-  hyphens: auto;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .banner-content h1 {
+     hyphens: auto;
+    }
+
 }
 

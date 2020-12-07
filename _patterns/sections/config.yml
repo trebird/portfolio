@@ -8,7 +8,7 @@ patterns:
         example: "Nature’s Care"
       - name: details
         type: string
-        example: "logo design / branding / statinery"
+        example: "logo design / branding / stationery"
       - name: description
         type: string
         example: "Nature’s Care is a local health product shop"
@@ -31,6 +31,9 @@ patterns:
       - name: title
         type: string
         example: "Nature’s Care"
+      - name: project-colour
+        type: string
+        example: "natures-care"
       - name: details
         type: string
         example: "logo design / brandng / stationery"
@@ -45,6 +48,10 @@ patterns:
       - name: details
         type: string
         example: "logo design / brandng / stationery"
+        example: "Nature’s Care"
+      - name: project-colour
+        type: string
+        example: "natures-care"
       - name: client
         type: string
         example: "Nature’s Care Health Products"

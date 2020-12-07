@@ -71,8 +71,20 @@
 }
 
 .project-kind {
-  color: var(--color-sea);
   font-weight: 400;
+  color: var(--color-sea);
+}
+
+.project-colour {
+  font-weight: 400;
+}
+
+.natures-care {
+  color: #56756f;
+}
+
+.mindu {
+  color: #4332f0;
 }
 
 preview-content {
