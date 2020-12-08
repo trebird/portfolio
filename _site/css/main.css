@@ -2679,8 +2679,8 @@ textarea {
 
 small,
 .milli {
-  font-size: .8rem;
-  line-height: 1.4rem;
+  font-size: .9rem;
+  line-height: 1.5rem;
 }
 
 .micro {
@@ -3297,8 +3297,8 @@ legend {
 
   .gutter-double,
   .gutter-2 {
-    padding-left: 2.8rem;
-    padding-right: 2.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .gutter-three-quarters,
@@ -3432,8 +3432,8 @@ legend {
   }
 
   .tena {
-    font-size: 7.4506rem;
-    line-height: 9.75rem;
+    font-size: 6rem;
+    line-height: 7rem;
   }
 
   .nina {
@@ -4287,9 +4287,6 @@ a {
 
 p {
   font-weight: 200;
-  font-size: 1rem;
-  line-height: 1.5rem;
-
 }
 
 .btn a {
@@ -4447,8 +4444,12 @@ preview-content {
 }
 
 .work-about {
-  background-color: var(--color-cement-light);
+  background-color: var(--color-cement);
   hyphens: auto;
+}
+
+.work-section {
+  background-color: var(--color-cement-light);
 }
 
 .intro-p {

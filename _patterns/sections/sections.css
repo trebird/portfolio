@@ -93,8 +93,12 @@ preview-content {
 }
 
 .work-about {
-  background-color: var(--color-cement-light);
+  background-color: var(--color-cement);
   hyphens: auto;
+}
+
+.work-section {
+  background-color: var(--color-cement-light);
 }
 
 .intro-p {

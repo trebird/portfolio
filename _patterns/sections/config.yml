@@ -65,6 +65,12 @@ patterns:
           source: "site.case-studies[0]"
           type: Project
 
+  work-section:
+    fields:
+      - name: heading
+        type: string
+        example: "Ideation"
+
   image-full:
     fields:
       - name: image
