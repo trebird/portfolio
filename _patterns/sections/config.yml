@@ -85,9 +85,6 @@ patterns:
       - name: image
         type: image
         example: "natures-care-4.jpg"
-      - name: image
-        type: image
-        example: "natures-care-3.jpg"
         data:
           source: "site.case-studies[0]"
           type: Project
