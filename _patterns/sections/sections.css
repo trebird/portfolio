@@ -97,8 +97,12 @@ preview-content {
   hyphens: auto;
 }
 
-.work-section {
+.ideation {
   background-color: var(--color-cement-light);
+}
+
+.elements {
+  background-color: white;
 }
 
 .intro-p {

@@ -4,6 +4,9 @@ meta: UX/UI mobile app prototype design
 image-banner: "/mindu-0.jpg"
 name: Mindu
 project-colour: mindu
+bg: ideation
+ideation: ideation
+elements: elements
 details: ux/ui design / prototype / logo design
 description: Mindu is an educational mobile app prototype that addresses mental health and wellness.
 client: Mindu

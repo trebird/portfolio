@@ -67,9 +67,42 @@ patterns:
 
   work-section:
     fields:
+      - name: bg
+        type: string
+        example: "ideation"
       - name: heading
         type: string
-        example: "Ideation"
+        example: "ideation"
+      - name: project-colour
+        type: string
+        example: "natures-care"
+
+  ideation:
+    fields:
+      - name: image-i1
+        type: image
+        example: "natures-care-i1.jpg"
+      - name: image-i2
+        type: image
+        example: "natures-care-i2.jpg"
+
+  elements:
+    fields:
+      - name: fill1
+        type: object
+        example: "fill1"
+      - name: fill2
+        type: object
+        example: "fill2"
+      - name: fill3
+        type: object
+        example: "fill3"
+      - name: fill4
+        type: object
+        example: "fill4"
+      - name: image-e1
+        type: image
+        example: "natures-care-e1.jpg"
 
   image-full:
     fields:
@@ -84,7 +117,7 @@ patterns:
     fields:
       - name: image
         type: image
-        example: "natures-care-4.jpg"
+        example: "natures-care-3.jpg"
         data:
           source: "site.case-studies[0]"
           type: Project

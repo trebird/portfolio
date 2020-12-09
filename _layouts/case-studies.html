@@ -14,15 +14,13 @@
   {% pattern sections/work-title title=page.name project-colour=page.project-colour details=page.details  %}
   {% pattern sections/preview-img image=page.image-banner %}
   {% pattern sections/work-about project-colour=page.project-colour description=page.description client=page.client deliverables=page.deliverables%}
-  {% pattern sections/work-section heading="Ideation" %}
+  {% pattern sections/work-section bg=page.bg heading=page.ideation project-colour=page.project-colour %}
+  {% pattern sections/ideation image-i1=page.image-i1 image-i2=page.image-i2 %}
+  {% pattern sections/work-section bg=elements heading=page.elements project-colour=page.project-colour %}
+  {% pattern sections/elements fill1=page.fill1 fill2=page.fill2 fill3=page.fill3 fill4=page.fill4 image-e1=page.image-e1 %}
 
   <div class="grid">
-    <div class="unit xs-1 m-1-2">
-      {% pattern sections/image-full image=page.image-i1 %}
-    </div>
-    <div class="unit xs-1 m-1-2">
-      {% pattern sections/image-full image=page.image-i2 %}
-    </div>
+
 
     <div class="unit xs-1">
       {% pattern sections/image-full image=page.image-1 %}

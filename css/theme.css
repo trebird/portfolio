@@ -18,9 +18,14 @@ html {
   orphans: 2;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: var(--font-secondary);
   font-weight: 100;
+}
+
+h3  {
+  font-family: var(--font-secondary);
+  font-weight: 700;
 }
 
 h4, h5 {

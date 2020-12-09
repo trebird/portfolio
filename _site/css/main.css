@@ -4245,9 +4245,14 @@ html {
   orphans: 2;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: var(--font-secondary);
   font-weight: 100;
+}
+
+h3  {
+  font-family: var(--font-secondary);
+  font-weight: 700;
 }
 
 h4, h5 {
@@ -4448,8 +4453,12 @@ preview-content {
   hyphens: auto;
 }
 
-.work-section {
+.ideation {
   background-color: var(--color-cement-light);
+}
+
+.elements {
+  background-color: white;
 }
 
 .intro-p {
