@@ -4263,6 +4263,7 @@ h4, h5 {
 
 h6 {
   font-family: var(--font-primary);
+  color: var(--color-charcoal-light);
   font-style: normal;
   font-weight: 300;
 }
@@ -4440,7 +4441,7 @@ footer p {
 }
 
 .mindu {
-  color: #4332f0;
+  color: #433cce;
 }
 
 preview-content {
