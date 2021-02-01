@@ -12,7 +12,6 @@
 
 .hello-text {
   font-weight: 100;
-  hyphens: auto;
 }
 
 .portrait {
@@ -31,7 +30,7 @@
 
 .fig {
   color: var(--color-cement);
-  hyphens: auto;
+
   border-top: solid 2px var(--color-sea);
   padding-top: 1em;
   margin-top: 10em;
