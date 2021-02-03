@@ -14,7 +14,7 @@ image-e2: "/natures-care-e2.jpg"
 details: logo design / branding / stationery
 description: Nature’s Care is a health product shop based in Ottawa. The store is recognized for its extensive inventory, friendly staff and knowledgeable owner, so the redesign of their brand kept these qualities in mind.
 
-client: Nature’s Care Health Products
+client: Nature’s Care
 deliverables: Logo Design, Branding, Stationery
 image-1: "/natures-care-6.jpg"
 image-2: "/natures-care-7.jpg"
