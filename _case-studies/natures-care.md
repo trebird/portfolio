@@ -9,10 +9,6 @@ ideation: ideation
 image-i1: "/natures-care-i1.jpg"
 image-i2: "/natures-care-i2.jpg"
 elements: elements
-fill1: "#231f20"
-fill2: "#56756f"
-fill3: "#aab6b4"
-fill4: "#d5dcdb"
 image-e1: "/natures-care-e1.jpg"
 image-e2: "/natures-care-e2.jpg"
 details: logo design / branding / stationery
