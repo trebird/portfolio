@@ -28,17 +28,22 @@ h3  {
   font-weight: 700;
 }
 
-h4, h5 {
+h4 {
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+h5 {
   font-family: var(--font-primary);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h6 {
   font-family: var(--font-primary);
   color: var(--color-charcoal-light);
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 
