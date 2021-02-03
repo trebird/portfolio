@@ -9,7 +9,7 @@ ideation: Ideation
 elements: Elements
 image-e1: "/mindu-e1.jpg"
 image-e2: "/mindu-e2.jpg"
-details: ux/ui design / prototype / logo design
+details: ux/ui design / prototype / logo
 description: Mindu is an educational mobile app prototype that addresses mental health and wellness.
 client: Mindu
 deliverables: UX/UI Design, Prototype, Logo
