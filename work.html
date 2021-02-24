@@ -7,7 +7,7 @@ meta: Graphic designer & photographer based in Ottawa, Canada with a specialty i
 <section id="work">
   {% for work in site.data.case-studies %}
     <div class="">
-      {% pattern sections/work-preview title=work.title details=work.details description=work.description image=work.image data=work %}
+      {% pattern sections/work-preview title=work.title details-color=work.details-color details=work.details description=work.description image=work.image data=work %}
     </div>
   {% endfor %}
 </section>

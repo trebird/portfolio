@@ -1,5 +1,6 @@
 - title: "Nature’s Care"
   meta: Logo redesign and branding for a local health product shop.
+  details-color: "natures-care"
   details: "logo design / branding / stationery"
   description: "Logo design and branding for a local health product shop."
   image: "natures-care-0.jpg"
@@ -8,6 +9,7 @@
   btn-work-shadow: "btn-natures-care-shadow"
 
 - title: "Mindu"
+  details-color: "mindu"
   details: "ux/ui / prototype / logo"
   description: "An interactive educational mobile app prototype that addresses mental health and wellness."
   image: "mindu-0.jpg"

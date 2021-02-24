@@ -6,6 +6,9 @@ patterns:
       - name: title
         type: string
         example: "Nature’s Care"
+      - name: details-color
+        type: string
+        example: "natures-care"
       - name: details
         type: string
         example: "logo design / branding / stationery"
