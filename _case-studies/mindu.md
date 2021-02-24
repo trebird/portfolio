@@ -6,6 +6,8 @@ name: Mindu
 project-colour: mindu
 bg: ideation
 ideation: Ideation
+image-i1: "/mindu-i1.jpg"
+image-i2: "/mindu-i2.jpg"
 elements: Elements
 image-e1: "/mindu-e1.jpg"
 image-e2: "/mindu-e2.jpg"
