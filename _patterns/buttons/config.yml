@@ -16,3 +16,15 @@ patterns:
       - name: text
         type: text
         example: say hello
+
+  btn-work:
+    fields:
+      - name: url
+        type: url
+        example: "/case-studies/mindu/"
+      - name: text-color
+        type: string
+        example: "btn-mindu"
+      - name: btn-work-shadow
+        type: string
+        example: "btn-mindu-shadow"

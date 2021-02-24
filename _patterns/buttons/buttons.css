@@ -52,6 +52,36 @@
   box-shadow: 0 0 12px 12px var(--color-cement) inset;
 }
 
+.btn-natures-care {
+  color: #56756f;
+}
+
+.btn-natures-care-shadow {
+  background-color: rgba(86,117,111,.3);
+  box-shadow: 0 0 12px 12px var(--color-cement) inset;
+}
+
+.link-box:hover .btn-natures-care {
+  background-color: rgba(86,117,111,.2);
+  border: solid 2px #56756f;
+  color: #56756f;
+}
+
+.btn-mindu {
+  color: #433cce;
+}
+
+.btn-mindu-shadow {
+  background-color: rgba(67,60,206,.3);
+  box-shadow: 0 0 12px 12px var(--color-cement) inset;
+}
+
+.link-box:hover .btn-mindu {
+  background-color: rgba(67,60,206,.2);
+  border: solid 2px #433cce;
+  color: #433cce;
+}
+
 .link-box:hover .btn-basic {
   background-color: rgba(16,95,80,.2);
   border: solid 2px var(--color-sea);
