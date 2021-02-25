@@ -5,7 +5,6 @@
 
 .hello-intro {
   border-top: solid 2px var(--color-cement);
-  hyphens: auto;
   font-weight: 300;
   padding-top: 1em;
 }
