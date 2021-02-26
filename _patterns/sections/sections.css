@@ -27,6 +27,11 @@
   z-index: 1002;
 }
 
+.haig a {
+  color: var(--color-cement);
+  font-weight: 400;
+}
+
 .fig {
   color: var(--color-cement);
   hyphens: auto;
