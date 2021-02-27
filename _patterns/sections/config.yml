@@ -91,21 +91,21 @@ patterns:
 
   elements:
     fields:
-      - name: fill1
-        type: object
-        example: "fill1"
-      - name: fill2
-        type: object
-        example: "fill2"
-      - name: fill3
-        type: object
-        example: "fill3"
-      - name: fill4
-        type: object
-        example: "fill4"
       - name: image-e1
         type: image
         example: "natures-care-e1.jpg"
+      - name: image-e2
+        type: image
+        example: "natures-care-e2.jpg"
+
+  research:
+    fields:
+      - name: image-r1
+        type: image
+        example: "natures-care-r1.jpg"
+      - name: image-r2
+        type: image
+        example: "natures-care-r2.jpg"
 
   image-full:
     fields:
