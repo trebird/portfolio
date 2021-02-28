@@ -12,7 +12,8 @@ elements: Elements
 image-e1: "/mindu-e1.jpg"
 image-e2: "/mindu-e2.jpg"
 details: ux/ui design / prototype / logo
-description: Mindu is an educational mobile app prototype that addresses mental health and wellness.
+description: Mindu is a comprehensive educational mobile app prototype that addresses <a class="un-goals" href="https://www.un.org/sustainabledevelopment/health/" target="_blank">UN Sustainable Development Goal target 3.4</a> by promoting mental health and well-being. <br><br>The app takes users through an interactive learning experience while reinforcing this material through challenges.
+
 client: Mindu
 deliverables: UX/UI Design, Prototype, Logo
 image-1: "/mindu-3.jpg"

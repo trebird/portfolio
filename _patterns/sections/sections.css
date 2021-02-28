@@ -34,7 +34,7 @@
 
 .haig a {
   color: var(--color-cement);
-  font-weight: 300;
+  font-weight: 30u70;
 }
 
 .haig a:hover {
@@ -95,8 +95,12 @@
   color: #56756f;
 }
 
-.mindu {
+.mindu, .un-goals {
   color: #433cce;
+}
+
+.un-goals {
+  color: rgba(67,60,206,.7);
 }
 
 preview-content {
