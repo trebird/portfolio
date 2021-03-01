@@ -4282,10 +4282,12 @@ ul, ol, dl {
 
 dt {
   font-weight: 600;
+  line-height: 1em;
 }
 
 dd {
-  font-weight: 300;
+  font-weight: 400;
+  line-height: 1.5em;
 }
 
 mark {
@@ -4699,13 +4701,17 @@ header nav a:hover {
 
 .banner-content h1 {
   font-weight: 400;
+  font-size: 7.4506rem;
+  line-height: 9.75rem;
 }
 
 @media only screen and (min-width: 25em) {
 
   .banner-content h1 {
-     hyphens: auto;
-    }
+
+    font-size: 9.3132rem;
+    line-height: 12.375rem;
+  }
 
 }
 

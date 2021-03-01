@@ -55,10 +55,12 @@ ul, ol, dl {
 
 dt {
   font-weight: 600;
+  line-height: 1em;
 }
 
 dd {
-  font-weight: 300;
+  font-weight: 400;
+  line-height: 1.5em;
 }
 
 mark {
