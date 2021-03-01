@@ -11,7 +11,7 @@ client: Mindu
 deliverables: UX/UI Design, Prototype, Logo
 year: 2019 – 2021
 
-description: Mindu is an educational mobile app prototype that addresses <a class="un-goals" href="https://www.un.org/sustainabledevelopment/health/" target="_blank">UN Sustainable Development Goal target 3.4</a> by promoting mental health and well-being. The app takes users through an interactive learning experience while reinforcing material through weekly challenges. <br><br>The friendly and minimal design of the Mindu app makes it easy to navigate, allowing many users to learn about their mental health and simple ways to improve it through lifestyle and nutrition.
+description: Mindu is an educational mobile app prototype that addresses <a class="un-goals" href="https://www.un.org/sustainabledevelopment/health/" target="_blank">UN Sustainable Development Goal target 3.4</a> by promoting mental health and well-being. The app takes users through an interactive learning experience while reinforcing material through weekly challenges. <br><br>The friendly and minimal design of the Mindu app makes it easy to navigate, allowing many users to learn about their mental health and discover simple ways to improve it through lifestyle and nutrition.
 
 bg: ideation
 ideation: Ideation
