@@ -82,6 +82,21 @@
   color: #433cce;
 }
 
+.btn-physicians-formula {
+  color: #85875f;
+}
+
+.btn-physicians-formula-shadow {
+  background-color: rgba(133,135,95,.3);
+  box-shadow: 0 0 12px 12px var(--color-cement) inset;
+}
+
+.link-box:hover .btn-physicians-formula {
+  background-color: rgba(133,135,95,.2);
+  border: solid 2px #85875f;
+  color: #85875f;
+}
+
 .link-box:hover .btn-basic {
   background-color: rgba(16,95,80,.2);
   border: solid 2px var(--color-sea);
