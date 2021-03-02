@@ -1,14 +1,14 @@
 ---
 title: Physicians Formula | Treawna Harvey
-meta: Sustainable package design
+meta: Sustainable package design and product photography
 project-colour: physicians-formula
 image-banner: "/physicians-formula-1.jpg"
 
 name: Physicians Formula
-details: sustainable package design / photo
+details: sustainable packaging / product photography
 
 client: Physicians Formula
-deliverables: Sustainable Package Design, Photography
+deliverables: Sustainable Packaging, Product Photography
 year: 2019
 
 description: Skincare and cosmetics company, Physicians Formula, is passionate about healthy beauty and focuses on gentle ingredients for the skin. Although they have begun using environmentally friendly materials, some of their packaging contains single-use plastics. <br><br>This redesign concept for a charcoal cleansing stick aims to make use of biodegradable, eco-friendly materials in lieu of plastic and incorporates imagery that highlights the natural ingredients used in this product while reinforcing the concept of healthy beauty central to the brand.
