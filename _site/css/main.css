@@ -4533,6 +4533,7 @@ preview-content {
   padding-bottom: 1.5em;
   transition: .25s ease-in-out;
   font-family: var(--font-secondary);
+
 }
 
 .btn-shadow {
@@ -4583,6 +4584,10 @@ preview-content {
   background-color: rgba(86,117,111,.2);
   border: solid 2px #56756f;
   color: #56756f;
+}
+
+.btn-work .kern-o {
+  letter-spacing: -2px;
 }
 
 .btn-mindu {
