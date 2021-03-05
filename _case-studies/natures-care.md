@@ -27,4 +27,9 @@ image-2: "/natures-care-7.jpg"
 image-3: "/natures-care-1.jpg"
 image-4: "/natures-care-5.jpg"
 image-5: "/natures-care-2.jpg"
+
+url-previous: "physicians-formula/"
+color-previous: "nav-physicians-formula"
+url-next: "mindu"
+color-next: "nav-mindu"
 ---

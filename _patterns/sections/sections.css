@@ -96,7 +96,8 @@
   color: #56756f;
 }
 
-.mindu, .un-goals {
+.mindu,
+.un-goals {
   color: #433cce;
 }
 
@@ -133,6 +134,33 @@ preview-content {
 .img-full,
 .img-half {
   background-color: var(--color-cement);
+}
+
+.project-nav {
+  background-color: var(--color-cement);
+}
+
+.project-nav a {
+  font-family: var(--font-secondary);
+  font-weight: normal;
+  color: var(--color-charcoal);
+  padding-top: 6px;
+  transition: all .25s ease-in-out;
+}
+
+.nav-natures-care:hover {
+  color: #56756f;
+  text-shadow: 0px 25px 15px #56756f;
+}
+
+.nav-mindu:hover {
+  color: #433cce;
+  text-shadow: 0px 25px 15px #433cce;
+}
+
+.nav-physicians-formula:hover {
+  color: #85875f;
+  text-shadow: 0px 25px 15px #85875f;
 }
 
 @media only screen and (min-width: 60em) {

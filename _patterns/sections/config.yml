@@ -124,3 +124,18 @@ patterns:
         data:
           source: "site.case-studies[0]"
           type: Project
+
+  project-nav:
+    fields:
+      - name: url-previous
+        type: url
+        example: "physicians-formula/"
+      - name: color-previous
+        type: string
+        example: "nav-physicians-formula"
+      - name: url-next
+        type: url
+        example: "mindu/"
+      - name: color-next
+        type: string
+        example: "nav-mindu"

@@ -28,3 +28,12 @@ patterns:
       - name: btn-work-shadow
         type: string
         example: "btn-mindu-shadow"
+
+  btn-next:
+    fields:
+      - name: url
+        type: url
+        example: "/case-studies/mindu/"
+      - name: stroke-color
+        type: string
+        example: "#433cce"
