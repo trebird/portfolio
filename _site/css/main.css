@@ -4501,7 +4501,7 @@ preview-content {
 }
 
 .project-nav {
-  background-color: var(--color-cement);
+  background-color: var(--color-cement-light);
 }
 
 .project-nav a {
