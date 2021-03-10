@@ -16,6 +16,9 @@ patterns:
       - name: text
         type: text
         example: say hello
+      - name: target
+        type: text
+        example: "_blank"
 
   btn-work:
     fields:
