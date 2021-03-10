@@ -1,4 +1,3 @@
-patterns:
   work-preview:
     description: |
       The work-preview is used on the homepage to display content for each case study preview.
