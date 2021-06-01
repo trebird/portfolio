@@ -11,7 +11,7 @@ client: Nature’s Care
 deliverables: Logo Design, Branding, Stationery
 year: 2019 – 2020
 
-description: Nature’s Care is a health product shop based in Ottawa. The store is recognized for its extensive inventory, friendly staff and knowledgeable owner, so the rebrand brand kept these qualities in mind. <br><br>The logo redesign pays homage to the original echinacea imagery and personifies the idea of Nature’s Care. Leaves of mint, sage, eucalyptus and other herbs with natural healing properties come together to construct a new symbol of health.
+description: Nature’s Care is a local health product shop recognized for its extensive inventory, friendly staff and knowledgeable owner. Naturally, the rebrand brand keeps these qualities in mind. <br><br>This logo redesign pays homage to the original echinacea imagery and personifies the idea of Nature’s Care. Leaves of mint, sage, eucalyptus and other herbs with natural healing properties come together to construct a new symbol of health.
 
 bg: ideation
 ideation: Ideation
