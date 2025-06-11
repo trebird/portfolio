@@ -1,27 +1,27 @@
 permalink: pretty
-theme: jekyll_patternbot
+# theme: jekyll_patternbot
 
-patternbot:
+# patternbot:
 
-  layouts:
-    default: |
-      The default layout should be used for the homepage and contains the websites primary header.
-    case-studies: |
-      The case-studies layout should be used for case study pages and contains the secondary light header.
+#   layouts:
+#     default: |
+#       The default layout should be used for the homepage and contains the websites primary header.
+#     case-studies: |
+#       The case-studies layout should be used for case study pages and contains the secondary light header.
 
-  title: "Portfolio"
-  description: |
-    Online portfolio for my graphic design work.
-  font_url: "https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Inter:wght@100;200;300;400;500;600;700&display=swap"
-  colors:
-    sidebar: "--color-charcoal"
-    accent: "--color-sea"
-    background: "--color-cement"
-    patterns:
-      brand.logos: "--color-cement-light"
-      buttons.basic: "--color-cement"
-      buttons.glow: "--color-charcoal"
-      header: "--color-charcoal"
+#   title: "Portfolio"
+#   description: |
+#     Online portfolio for my graphic design work.
+#   font_url: "https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+#   colors:
+#     sidebar: "--color-charcoal"
+#     accent: "--color-sea"
+#     background: "--color-cement"
+#     patterns:
+#       brand.logos: "--color-cement-light"
+#       buttons.basic: "--color-cement"
+#       buttons.glow: "--color-charcoal"
+#       header: "--color-charcoal"
 
 collections:
   case-studies:

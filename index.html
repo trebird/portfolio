@@ -4,17 +4,16 @@ title: Treawna Harvey | Graphic Design & Photo | Ottawa, Canada
 meta: Graphic designer & photographer based in Ottawa, Canada with a specialty in obsessing over fine details and calmly translating information into pleasing visual experiences.
 ---
 
-{% pattern banner/banner %}
-{% pattern sections/hello %}
+{% include banner/banner.html %} {% include sections/hello.html %}
 
 <section id="work">
   {% for work in site.data.case-studies %}
-    <div class="">
-      {% pattern sections/work-preview title=work.title details-color=work.details-color details=work.details description=work.description image=work.image data=work %}
-    </div>
+  <div class="">
+    {% include sections/work-preview.html title=work.title
+    details-color=work.details-color details=work.details
+    description=work.description image=work.image data=work %}
+  </div>
   {% endfor %}
 </section>
 
-<section id="contact">
-{% pattern sections/contact %}
-</section>
+<section id="contact">{% include sections/contact.html %}</section>

@@ -1,0 +1,181 @@
+.hello {
+  background-color: var(--color-charcoal);
+  color: var(--color-cement);
+}
+
+.hello-intro {
+  border-top: solid 2px var(--color-cement);
+  font-weight: 300;
+  padding-top: 1em;
+}
+
+.hello-text {
+  font-weight: 100;
+}
+
+.portrait {
+  box-shadow: -1.5em 1.75em 12px  rgba(16,95,80,.25);
+  border-radius: 300px;
+}
+
+.harvey {
+  z-index: 1001;
+  transition: all .25s ease-in-out;
+}
+
+.harvey:hover .harvey-hover {
+  z-index: 1002;
+}
+
+.hello-intro .specialty {
+  color: var(--color-cement-light);
+  font-weight: 600;
+}
+
+.haig a {
+  color: var(--color-cement);
+  font-weight: 30u70;
+}
+
+.haig a:hover {
+
+}
+
+.fig {
+  color: var(--color-cement);
+  hyphens: auto;
+  border-top: solid 2px var(--color-sea);
+  padding-top: 1em;
+  margin-top: 10em;
+}
+
+.fig span {
+  font-weight: 600;
+}
+
+.contact {
+  background-color: var(--color-charcoal);
+  color: var(--color-cement-light);
+}
+
+.contact h1, {
+  font-weight: 100;
+}
+
+.work-preview {
+  background-color: var(--color-cement);
+}
+
+.work-preview h1 {
+  font-size: 1.9531rem;
+  line-height: 2.8rem;
+  font-weight: 600;
+  margin-bottom: -.35em;
+  color: var(--color-charcoal);
+}
+
+.work-title {
+  background-color: var(--color-cement);
+}
+
+.work-title h1 {
+  font-weight: 600;
+  margin-bottom: -.4em;
+}
+
+.project-kind {
+  font-weight: 400;
+  color: var(--color-sea);
+}
+
+.project-colour {
+  font-weight: 400;
+}
+
+.natures-care {
+  color: #56756f;
+}
+
+.mindu,
+.un-goals {
+  color: #433cce;
+}
+
+.physicians-formula {
+  color: #85875f;
+}
+
+.un-goals {
+  color: rgba(67,60,206,.7);
+}
+
+preview-content {
+  top: -100em;
+  z-index: 1001;
+}
+
+.work-about {
+  background-color: var(--color-cement);
+
+}
+
+.ideation {
+  background-color: var(--color-cement-light);
+}
+
+.elements {
+  background-color: white;
+}
+
+.intro-p {
+  font-weight: 300;
+}
+
+.img-full,
+.img-half {
+  background-color: var(--color-cement);
+}
+
+.project-nav {
+  background-color: var(--color-cement-light);
+}
+
+.project-nav a {
+  font-family: var(--font-secondary);
+  font-weight: normal;
+  color: var(--color-charcoal);
+  padding-top: 6px;
+  transition: all .25s ease-in-out;
+}
+
+.nav-natures-care:hover {
+  color: #56756f;
+  text-shadow: 0px 25px 15px #56756f;
+}
+
+.nav-mindu:hover {
+  color: #433cce;
+  text-shadow: 0px 25px 15px #433cce;
+}
+
+.nav-physicians-formula:hover {
+  color: #85875f;
+  text-shadow: 0px 25px 15px #85875f;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .work-preview h1 {
+    font-size: 1.9531rem;
+    line-height: 2.8rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .work-preview h1 {
+    font-size: 1.9531rem;
+    line-height: 2.625rem;
+  }
+}

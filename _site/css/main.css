@@ -4319,6 +4319,173 @@ p {
   text-decoration: none;
 }
 
+.link-box {
+  margin-left: -5px;
+}
+
+.btn {
+  z-index:1000;
+  border: solid 2px;
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: Transparent;
+  border-radius: 50px;
+  padding-top: .475em;
+  padding-bottom: 1.5em;
+  transition: .25s ease-in-out;
+  font-family: var(--font-secondary);
+}
+
+.btn-shadow {
+  top: 7px;
+  right: -3px;
+  border-radius: 50px;
+  height: 160%;
+  width: 112%;
+  transition: all .25s ease-in-out;
+}
+
+.link-box:hover .btn {
+  transform: translate(2px, -5px);
+}
+
+.link-box:hover .btn-shadow {
+  transform: translateY(-1px, 5px);
+  height: 160%;
+  width: 112%
+}
+
+.btn-container{
+  display: flex;
+  width: 150px;
+  height: 40px;
+}
+
+.btn-basic {
+    color: var(--color-sea);
+    font-family: var(--font-secondary);
+}
+
+.btn-basic-shadow {
+  background-color: rgba(16,95,80,.3);
+  box-shadow: 0 0 12px 12px var(--color-cement) inset;
+}
+
+.btn-natures-care {
+  color: #56756f;
+}
+
+.btn-natures-care-shadow {
+  background-color: rgba(86,117,111,.3);
+  box-shadow: 0 0 12px 12px var(--color-cement) inset;
+}
+
+.link-box:hover .btn-natures-care {
+  background-color: rgba(86,117,111,.2);
+  border: solid 2px #56756f;
+  color: #56756f;
+}
+
+.btn-work .kern-o {
+  letter-spacing: -2px;
+}
+
+.btn-mindu {
+  color: #433cce;
+}
+
+.btn-mindu-shadow {
+  background-color: rgba(67,60,206,.3);
+  box-shadow: 0 0 12px 12px var(--color-cement) inset;
+}
+
+.link-box:hover .btn-mindu {
+  background-color: rgba(67,60,206,.2);
+  border: solid 2px #433cce;
+  color: #433cce;
+}
+
+.btn-physicians-formula {
+  color: #85875f;
+}
+
+.btn-physicians-formula-shadow {
+  background-color: rgba(133,135,95,.3);
+  box-shadow: 0 0 12px 12px var(--color-cement) inset;
+}
+
+.link-box:hover .btn-physicians-formula {
+  background-color: rgba(133,135,95,.2);
+  border: solid 2px #85875f;
+  color: #85875f;
+}
+
+.link-box:hover .btn-basic {
+  background-color: rgba(16,95,80,.2);
+  border: solid 2px var(--color-sea);
+  color: var(--color-sea);
+}
+
+.link-box:hover .btn-basic-shadow {
+  background-color: rgba(16,95,80,.2);
+}
+
+.btn-glow {
+    color: var(--color-cement-light);
+    font-family: var(--font-secondary);
+}
+
+.btn-glow {
+    color: var(--color-cement);
+    font-family: var(--font-secondary);
+}
+
+.btn-glow-shadow {
+  background-color: rgba(234,234,234,.2);
+  box-shadow: 0 0 12px 12px var(--color-charcoal) inset;
+}
+
+.link-box:hover .btn-glow {
+  background-color: rgba(234,234,234,.2);
+  border: solid 2px var(--color-cement-light);
+  color: var(--color-cement-light);
+}
+
+.link-box:hover .btn-glow-shadow {
+  background-color: rgba(234,234,234,.1);
+}
+
+.banner {
+  background-color: var(--color-charcoal);
+  color: rgba(234,234,234,.15);
+}
+
+.banner span {
+  color: var(--color-charcoal-light);
+}
+
+.banner .fs {
+  color: rgba(234,234,234,.15);
+}
+
+.banner-content h1 {
+  font-weight: 400;
+  font-size: 7.4506rem;
+  line-height: 9.75rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .banner-content h1 {
+
+    font-size: 9.3132rem;
+    line-height: 12.375rem;
+  }
+
+}
+
 footer {
   background-color: var(--color-charcoal);
   width: 100%;
@@ -4360,6 +4527,62 @@ footer p {
     hyphens: auto;
   }
 
+}
+
+header {
+  background-color: var(--color-charcoal);
+  width: 100%;
+  z-index: 2000;
+}
+
+header a {
+  font-family: var(--font-secondary);
+  text-decoration: none;
+  color: var(--color-cement);
+  transition: all .25s ease-in-out;
+}
+
+.site-title a,
+.site-title-light a {
+  font-weight: 100;
+}
+
+nav a {
+  padding-top: 6px;
+  font-weight: 100;
+}
+
+nav ul {
+  text-align: right;
+}
+
+.header-light {
+  background-color: var(--color-cement);
+}
+
+.site-title-light a,
+.header-light a {
+  color: #000;
+}
+
+@media only screen and (min-width: 38em) {
+
+  header .site-title,
+  header .site-title-light{
+    text-align: left;
+  }
+
+  nav ul {
+    text-align: right;
+    list-style: none;
+  }
+
+}
+
+header nav a:hover {
+
+  border-top: solid 2.5px var(--color-sea);
+  text-shadow: 0px 25px 15px var(--color-sea);
 }
 
 .hello {
@@ -4544,226 +4767,4 @@ preview-content {
   }
 }
 
-.link-box {
-  margin-left: -5px;
-}
-
-.btn {
-  z-index:1000;
-  border: solid 2px;
-  font-weight: 400;
-  font-size: 20px;
-  width: 100%;
-  height: 100%;
-  background-color: Transparent;
-  border-radius: 50px;
-  padding-top: .475em;
-  padding-bottom: 1.5em;
-  transition: .25s ease-in-out;
-  font-family: var(--font-secondary);
-}
-
-.btn-shadow {
-  top: 7px;
-  right: -3px;
-  border-radius: 50px;
-  height: 160%;
-  width: 112%;
-  transition: all .25s ease-in-out;
-}
-
-.link-box:hover .btn {
-  transform: translate(2px, -5px);
-}
-
-.link-box:hover .btn-shadow {
-  transform: translateY(-1px, 5px);
-  height: 160%;
-  width: 112%
-}
-
-.btn-container{
-  display: flex;
-  width: 150px;
-  height: 40px;
-}
-
-.btn-basic {
-    color: var(--color-sea);
-    font-family: var(--font-secondary);
-}
-
-.btn-basic-shadow {
-  background-color: rgba(16,95,80,.3);
-  box-shadow: 0 0 12px 12px var(--color-cement) inset;
-}
-
-.btn-natures-care {
-  color: #56756f;
-}
-
-.btn-natures-care-shadow {
-  background-color: rgba(86,117,111,.3);
-  box-shadow: 0 0 12px 12px var(--color-cement) inset;
-}
-
-.link-box:hover .btn-natures-care {
-  background-color: rgba(86,117,111,.2);
-  border: solid 2px #56756f;
-  color: #56756f;
-}
-
-.btn-work .kern-o {
-  letter-spacing: -2px;
-}
-
-.btn-mindu {
-  color: #433cce;
-}
-
-.btn-mindu-shadow {
-  background-color: rgba(67,60,206,.3);
-  box-shadow: 0 0 12px 12px var(--color-cement) inset;
-}
-
-.link-box:hover .btn-mindu {
-  background-color: rgba(67,60,206,.2);
-  border: solid 2px #433cce;
-  color: #433cce;
-}
-
-.btn-physicians-formula {
-  color: #85875f;
-}
-
-.btn-physicians-formula-shadow {
-  background-color: rgba(133,135,95,.3);
-  box-shadow: 0 0 12px 12px var(--color-cement) inset;
-}
-
-.link-box:hover .btn-physicians-formula {
-  background-color: rgba(133,135,95,.2);
-  border: solid 2px #85875f;
-  color: #85875f;
-}
-
-.link-box:hover .btn-basic {
-  background-color: rgba(16,95,80,.2);
-  border: solid 2px var(--color-sea);
-  color: var(--color-sea);
-}
-
-.link-box:hover .btn-basic-shadow {
-  background-color: rgba(16,95,80,.2);
-}
-
-.btn-glow {
-    color: var(--color-cement-light);
-    font-family: var(--font-secondary);
-}
-
-.btn-glow {
-    color: var(--color-cement);
-    font-family: var(--font-secondary);
-}
-
-.btn-glow-shadow {
-  background-color: rgba(234,234,234,.2);
-  box-shadow: 0 0 12px 12px var(--color-charcoal) inset;
-}
-
-.link-box:hover .btn-glow {
-  background-color: rgba(234,234,234,.2);
-  border: solid 2px var(--color-cement-light);
-  color: var(--color-cement-light);
-}
-
-.link-box:hover .btn-glow-shadow {
-  background-color: rgba(234,234,234,.1);
-}
-
-header {
-  background-color: var(--color-charcoal);
-  width: 100%;
-  z-index: 2000;
-}
-
-header a {
-  font-family: var(--font-secondary);
-  text-decoration: none;
-  color: var(--color-cement);
-  transition: all .25s ease-in-out;
-}
-
-.site-title a,
-.site-title-light a {
-  font-weight: 100;
-}
-
-nav a {
-  padding-top: 6px;
-  font-weight: 100;
-}
-
-nav ul {
-  text-align: right;
-}
-
-.header-light {
-  background-color: var(--color-cement);
-}
-
-.site-title-light a,
-.header-light a {
-  color: #000;
-}
-
-@media only screen and (min-width: 38em) {
-
-  header .site-title,
-  header .site-title-light{
-    text-align: left;
-  }
-
-  nav ul {
-    text-align: right;
-    list-style: none;
-  }
-
-}
-
-header nav a:hover {
-
-  border-top: solid 2.5px var(--color-sea);
-  text-shadow: 0px 25px 15px var(--color-sea);
-}
-
-.banner {
-  background-color: var(--color-charcoal);
-  color: rgba(234,234,234,.15);
-}
-
-.banner span {
-  color: var(--color-charcoal-light);
-}
-
-.banner .fs {
-  color: rgba(234,234,234,.15);
-}
-
-.banner-content h1 {
-  font-weight: 400;
-  font-size: 7.4506rem;
-  line-height: 9.75rem;
-}
-
-@media only screen and (min-width: 25em) {
-
-  .banner-content h1 {
-
-    font-size: 9.3132rem;
-    line-height: 12.375rem;
-  }
-
-}
 

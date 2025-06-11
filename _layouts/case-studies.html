@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>{{page.title}}</title>
-  <meta name="description" content="{{page.meta}}">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="/css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{page.title}}</title>
+    <meta name="description" content="{{page.meta}}" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="/css/main.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    {% include header/header-light.html %}
+    {% include sections/work-title.html title=page.name project-colour=page.project-colour details=page.details %}
+    {% include sections/preview-img.html image=page.image-banner %}
+    {% include sections/work-about.html project-colour=page.project-colour description=page.description client=page.client deliverables=page.deliverables year=page.year %}
+    {% include sections/work-section.html bg=page.bg heading=page.ideation project-colour=page.project-colour %}
+    {% include sections/ideation.html image-i1=page.image-i1 image-i2=page.image-i2 %}
+    {% include sections/work-section.html bg=elements heading=page.elements project-colour=page.project-colour %}
+    {% include sections/elements.html fill1=page.fill1 fill2=page.fill2 fill3=page.fill3 fill4=page.fill4 image-e1=page.image-e1 %}
 
-  {% pattern header/header-light %}
-  {% pattern sections/work-title title=page.name project-colour=page.project-colour details=page.details  %}
-  {% pattern sections/preview-img image=page.image-banner %}
-  {% pattern sections/work-about project-colour=page.project-colour description=page.description client=page.client deliverables=page.deliverables year=page.year %}
-  {% pattern sections/work-section bg=page.bg heading=page.ideation project-colour=page.project-colour %}
-  {% pattern sections/ideation image-i1=page.image-i1 image-i2=page.image-i2 %}
-  {% pattern sections/work-section bg=elements heading=page.elements project-colour=page.project-colour %}
-  {% pattern sections/elements fill1=page.fill1 fill2=page.fill2 fill3=page.fill3 fill4=page.fill4 image-e1=page.image-e1 %}
-
-  <div class="grid">
-
-    <div class="unit xs-1">
-      {% pattern sections/image-full image=page.image-1 %}
+    <div class="grid">
+      <div class="unit xs-1">
+        {% include sections/image-full.html image=page.image-1 %}
+      </div>
+      <div class="unit xs-1">
+        {% include sections/image-full.html image=page.image-2 %}
+      </div>
     </div>
-    <div class="unit xs-1">
-      {% pattern sections/image-full image=page.image-2 %}
+    <div class="grid">
+      <div class="unit xs-1">
+        {% include sections/image-full.html image=page.image-3 %}
+      </div>
+      <div class="unit xs-1">
+        {% include sections/image-full.html image=page.image-4 %}
+      </div>
+      <div class="unit xs-1">
+        {% include sections/image-full.html image=page.image-5 %}
+      </div>
     </div>
-  </div>
-  <div class="grid">
-    <div class="unit xs-1">
-      {% pattern sections/image-full image=page.image-3 %}
-    </div>
-    <div class="unit xs-1">
-      {% pattern sections/image-full image=page.image-4 %}
-    </div>
-    <div class="unit xs-1">
-      {% pattern sections/image-full image=page.image-5 %}
-    </div>
-  </div>
-  {% pattern sections/project-nav url-previous=page.url-previous color-previous=page.color-previous url-next=page.url-next color-next=page.color-next %}
-  {% pattern footer/footer %}
-
-</body>
+    {% include sections/project-nav.html url-previous=page.url-previous
+    color-previous=page.color-previous url-next=page.url-next
+    color-next=page.color-next %}
+    {% include footer/footer.html %}
+  </body>
 </html>
