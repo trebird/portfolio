@@ -50,6 +50,6 @@ nav ul {
 
 header nav a:hover {
 
-  border-top: solid 2.5px var(--color-sea);
-  text-shadow: 0px 25px 15px var(--color-sea);
+  border-top: solid 2.5px var(--color-rust);
+  text-shadow: 0px 25px 15px var(--color-rust);
 }

@@ -3,6 +3,7 @@
   --color-charcoal-light: #6f6f6f;
   --color-cement: #d3d3d3;
   --color-cement-light: #eaeaea;
+  --color-rust: #8b4022;
   --color-sea: #105f50;
   --color-white: #fff;
 
@@ -68,7 +69,7 @@ mark {
 }
 
 a {
-  color: var(--color-sea);
+  color: var(--color-rust);
 }
 
 p {

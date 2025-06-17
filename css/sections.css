@@ -14,7 +14,7 @@
 }
 
 .portrait {
-  box-shadow: -1.5em 1.75em 12px  rgba(16,95,80,.25);
+  box-shadow: -1.5em 1.75em 12px  rgba(139,64,34,.25);
   border-radius: 300px;
 }
 
@@ -44,7 +44,7 @@
 .fig {
   color: var(--color-cement);
   hyphens: auto;
-  border-top: solid 2px var(--color-sea);
+  border-top: solid 2px var(--color-rust);
   padding-top: 1em;
   margin-top: 10em;
 }
@@ -102,7 +102,7 @@
 }
 
 .physicians-formula {
-  color: #85875f;
+  color: #4e6f00;
 }
 
 .un-goals {
@@ -159,8 +159,8 @@ preview-content {
 }
 
 .nav-physicians-formula:hover {
-  color: #85875f;
-  text-shadow: 0px 25px 15px #85875f;
+  color: #4e6f00;
+  text-shadow: 0px 25px 15px #4e6f00;
 }
 
 @media only screen and (min-width: 60em) {
