@@ -4,7 +4,7 @@
   details: "logo design / branding / stationery"
   description: "Branding redesign concept for a local health product shop."
   image: "natures-care-0.jpg"
-  url: "{{site.baseurl}}/case-studies/natures-care/"
+  url: "/case-studies/natures-care/"
   text-color: "btn-natures-care"
   btn-work-shadow: "btn-natures-care-shadow"
 
@@ -13,7 +13,7 @@
   details: "ui/ux design / prototype / logo"
   description: "An interactive educational mobile app prototype that addresses mental health and wellness."
   image: "mindu-0.jpg"
-  url: "{{site.baseurl}}/case-studies/mindu/"
+  url: "/case-studies/mindu/"
   text-color: "btn-mindu"
   btn-work-shadow: "btn-mindu-shadow"
 
@@ -22,6 +22,6 @@
   details: "sustainable packaging / product photography"
   description: "Reducing single-use plastics through eco-friendly packaging, one charcoal cleansing stick at a time."
   image: "physicians-formula-0.jpg"
-  url: "{{site.baseurl}}/case-studies/physicians-formula/"
+  url: "/case-studies/physicians-formula/"
   text-color: "btn-physicians-formula"
   btn-work-shadow: "btn-physicians-formula-shadow"
