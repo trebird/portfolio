@@ -11,6 +11,22 @@
       rel="stylesheet"
     />
   </head>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentPath = window.location.pathname.replace(/\/$/, "");
+
+    document.querySelectorAll("nav a").forEach(link => {
+      const href = link.getAttribute("href").replace(/\/$/, "");
+
+      // Highlight 'work' if URL starts with /case-studies
+      if (href && (href === currentPath || (href === "/work" && currentPath.startsWith("/case-studies")))) {
+        link.parentElement.classList.add("active");
+      }
+    });
+  });
+</script>
+
   <body>
     {% include header/header-light.html %}
     {% include sections/work-title.html title=page.name project-colour=page.project-colour details=page.details %}

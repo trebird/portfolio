@@ -48,8 +48,11 @@ nav ul {
 
 }
 
-header nav a:hover {
+header nav li.active a {
+  border-top: solid 2.5px var(--color-rust);
+}
 
+header nav a:hover {
   border-top: solid 2.5px var(--color-rust);
   text-shadow: 0px 25px 15px var(--color-rust);
 }

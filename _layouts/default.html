@@ -11,6 +11,22 @@
       rel="stylesheet"
     />
   </head>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentPath = window.location.pathname.replace(/\/$/, "");
+
+    document.querySelectorAll("nav a").forEach(link => {
+      const href = link.getAttribute("href").replace(/\/$/, "");
+
+      // Highlight current page if active (eg. about)
+      if (href && (href === currentPath || (href === "/work" && currentPath.startsWith("/work")))) {
+        link.parentElement.classList.add("active");
+      }
+    });
+  });
+</script>
+
   <body>
     {% include header/header.html %} {{content}} {% include footer/footer.html text="thank
     you for stopping by" %}
