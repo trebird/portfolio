@@ -15,7 +15,7 @@
 }
 
 .about-intro {
-  border-top: solid 2px var(--color-cement);
+  border-top: solid 2px var(--color-rust-tint);
   font-weight: 400;
   padding-top: 1em;
 }
@@ -39,13 +39,13 @@
 }
 
 
-.about-link a {
+.about-link {
   color: var(--color-cement);
   text-decoration: none;
   border-bottom: solid 1px;
 }
 
-.about-link a:hover {
+.about-link:hover {
   font-weight: 300;
   color: var(--color-rust-tint);
   border-bottom: solid 1px var(--color-rust-tint);
